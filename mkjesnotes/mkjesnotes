@@ -1,0 +1,148 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use Text::Markdown qw(markdown);
+use POSIX qw(strftime);
+
+my $indir = "..";
+my $outdir = "html";
+my $templatedir = "templates";
+
+mkdir $outdir;
+
+my $HEADER = slurp("$templatedir/header");
+my $FOOTER = slurp("$templatedir/footer");
+my $PREVIEW = slurp("$templatedir/preview");
+my $NAVHTML = navhtml(Index => 'index.html') . ' | ';
+
+my @stories;
+for my $file (sort glob("$indir/*.md")) {
+    (my $name = $file) =~ s/^\Q$indir\E\///;
+    $name =~ s/\.md$//;
+    my $modified = `git log -1 --pretty="format:%ct" \Q$file\E` || time;
+
+    my $story = {
+        file => $file,
+        name => $name,
+        modified => $modified,
+        markdown => slurp($file),
+        # title => either "# title" from first line of markdown, else $name
+    };
+
+    if ($story->{markdown} =~ /^# (.*)/) {
+        $story->{title} = $1;
+    } else {
+        $story->{title} = $name;
+    }
+
+    $story->{daily} = 1 if $name =~ /^20\d\d[01]\d[0123]\d$/;
+
+    $NAVHTML .= navhtml($story->{title}, "$story->{name}.html") if !$story->{daily};
+
+    push @stories, $story;
+}
+
+write_story($_) for @stories;
+write_index(@stories);
+
+sub write_story {
+    my ($story) = @_;
+
+    # put "last modified" under the title
+    my $markdown = $story->{markdown};
+    if ($markdown =~ s/^(# .*)//) {
+        $markdown = $1 . "\n" . lastmodified($story) . $markdown;
+    } else {
+        $markdown = lastmodified($story) . $markdown;
+    }
+
+    my $html = $HEADER . md2html($markdown) . $FOOTER;
+    spit("$outdir/$story->{name}.html", template($html, $story));
+}
+
+sub write_index {
+    my (@stories) = @_;
+
+    my $html = '';
+
+    for my $story (sort { $b->{name} cmp $a->{name} } @stories) {
+        next if !$story->{daily};
+        $html .= template($PREVIEW, $story);
+    }
+
+    spit("$outdir/index.html", template($HEADER . $html . $FOOTER, {
+        title => 'jes notes',
+    }));
+}
+
+sub template {
+    my ($html, $story) = @_;
+    $html =~ s/__TITLE__/$story->{title}/g;
+    $html =~ s/__NAME__/$story->{name}/g;
+    $html =~ s/__LAST_MODIFIED__/$story->{modified}/g;
+    $html =~ s/__NAV__/$NAVHTML/g;
+    $html =~ s/__PREVIEW__/md2html_preview($story->{markdown})/ge;
+    return $html;
+}
+
+sub slurp {
+    my ($name) = @_;
+    open (my $fh, '<', $name)
+        or die "can't read $name: $!\n";
+    my $c = join('', <$fh>);
+    close $fh;
+    return $c;
+}
+
+sub spit {
+    my ($name, $c) = @_;
+    open (my $fh, '>', $name)
+        or die "can't write $name: $!\n";
+    print $fh $c;
+    close $fh;
+}
+
+sub md2html {
+    my ($md) = @_;
+
+    # fix un-hyperlinked hyperlinks
+    $md =~ s/(https?:\/\/\S+)/[$1]($1)/g;
+
+    my $html = markdown($md);
+
+    # fix relative md hyperlinks
+    $html =~ s/href="([^\/"]+)\.md"/href="$1.html"/g;
+
+    # fix imagebin links
+    $html =~ s/<a href="https:\/\/img\.incoherency\.co\.uk\/(\d+)">[^<]+<\/a>/<a class="img-link" href="https:\/\/img.incoherency.co.uk\/$1"><img src="https:\/\/img.incoherency.co.uk\/$1\/thumb"><\/a>/g;
+
+    return $html;
+}
+
+sub md2html_preview {
+    my ($md) = @_;
+
+    # strip title
+    $md =~ s/^# .*//;
+
+    if (length($md) > 200) {
+        $md = substr($md, 0, 200) . '...';
+    }
+
+    return md2html($md);
+}
+
+sub lastmodified {
+    my ($story) = @_;
+
+    # in markdown format
+    return "*Last modified: " . strftime("%Y-%m-%d %H:%M:%S", gmtime($story->{modified})) . "*\n";
+}
+
+sub navhtml {
+    my ($title, $file) = @_;
+
+    return "<a class=\"nav\" href=\"$file\">$title</a> ";
+}

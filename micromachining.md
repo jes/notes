@@ -26,6 +26,8 @@ Spindle speed: **24000 rpm**
 
 **The tips of the teeth on the escape wheel are very sharp, fragile, consider adding a radius.**
 
+**Consider measuring the runout and then telling FreeCAD that the tool is oversize (0.1mm TIR => 1.05mm diameter).**
+
 The first endmill snapped immediately. For the second one I measured the runout at over 0.2mm! (Over 20%
 of diameter!)
 
