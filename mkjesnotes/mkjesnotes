@@ -15,7 +15,7 @@ mkdir $outdir;
 my $HEADER = slurp("$templatedir/header");
 my $FOOTER = slurp("$templatedir/footer");
 my $PREVIEW = slurp("$templatedir/preview");
-my $NAVHTML = navhtml(Index => 'index.html') . ' | ';
+my $NAVHTML = navhtml(Index => 'index.html') . ' . ';
 
 my @stories;
 for my $file (sort glob("$indir/*.md")) {

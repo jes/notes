@@ -23,6 +23,6 @@ html, body {
 <title>__TITLE__</title>
 </head>
 <body>
-<b style="font-size: 2em">jes notes</b> | __NAV__
+<b style="font-size: 2em">jes notes</b> __NAV__
 <hr>
 <br>
