@@ -85,6 +85,15 @@ https://img.incoherency.co.uk/4625
 
 [2023-09-14](20230914.md)
 
+**TODO: I haven't actually tried this.**
+
+With the completed gear still attached to the superglue arbor in the collet chuck, transfer
+the collet chuck to the router table and clamp it down any which way you can manage.
+
+Locate the origin on the centre of the bore.
+
+See [micromachining](micromachining.md) for more.
+
 ## Fitting gears to shafts
 
 https://img.incoherency.co.uk/4631
