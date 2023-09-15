@@ -1,2 +1,14 @@
+<div class="svg">
+    <br>
+    <svg width="60" height="30" style="fill:black; stroke:black; margin-bottom: 20px">
+        <path d="m 0,10 h 10 v 10 l 0,-5 H 0 Z" />
+        <path d="m 25,0 v 10 h -5 v 20 v -20 h 5" />
+        <path d="m 40,0 v 30" />
+        <path d="M 30,10 H 40" />
+        <path d="M 30,20 H 50" />
+        <path d="M 60,10 H 50" />
+    </svg>
+</div>
+
 </body>
 </html>
