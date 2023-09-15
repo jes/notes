@@ -21,7 +21,7 @@ use silver steel and harden it after cutting.
 
 https://img.incoherency.co.uk/4615
 
-[2023-09-08](20230908.md)
+[2023-09-08](20230908.md): I made a brass test gear, 33 teeth, module 0.4, 0.75mm thick, 1mm bore.
 
 Put the brass rod stock in the collet chuck.
 
@@ -47,7 +47,7 @@ See [4thaxis](4thaxis.md) for how to use `mk-gear` to cut the gear teeth, correc
 
 ## Making shafts
 
-[2023-09-15](20230915.md)
+[2023-09-15](20230915.md): I made shafts for a 2x scale escape wheel and balance wheel.
 
 **TODO: this process needs a step for hardening the shaft, and a step for polishing it.**
 
@@ -83,7 +83,7 @@ drift against the spinning part to true it up even more.
 
 https://img.incoherency.co.uk/4625
 
-[2023-09-14](20230914.md)
+[2023-09-14](20230914.md): I made an escape wheel using the 1mm end mill.
 
 **TODO: I haven't actually tried this.**
 
@@ -98,7 +98,7 @@ See [micromachining](micromachining.md) for more.
 
 https://img.incoherency.co.uk/4631
 
-[2023-09-15](20230915.md)
+[2023-09-15](20230915.md): I fitted shafts to the 2x scale escape wheel and balance wheel.
 
 **TODO: I probably want some improved staking tools.**
 
