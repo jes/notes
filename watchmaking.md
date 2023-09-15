@@ -10,7 +10,7 @@ https://img.incoherency.co.uk/4598
 
 Mount a tool blank in the vice in the milling machine, at a slight angle to provide some clearance (what angle? should I be more thorough about this?).
 
-Model the profile you want to cut in FreeCAD, generate the path, and then edit the path to cut out the moves you don't need.
+Model the profile you want to cut in FreeCAD, generate the path, and then edit the path to remove the moves you don't need.
 
 Run the job.
 
