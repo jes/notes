@@ -110,3 +110,5 @@ Hammer the shaft home.
 
 If the pivot bent in this process, put the shaft (with gear) back in the lathe, and try to true it up using the
 soft drift. This is less likely to happen if using hardened shafts and proper staking tools.
+
+If the gear is loose on the shaft, use Loctite 603 to secure it.
