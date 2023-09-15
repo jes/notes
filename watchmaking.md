@@ -49,7 +49,7 @@ See [4thaxis](4thaxis.md) for how to use `mk-gear` to cut the gear teeth, correc
 
 [2023-09-15](20230915.md): I made shafts for a 2x scale escape wheel and balance wheel.
 
-**TODO: this process needs a step for hardening the shaft, and a step for polishing it.**
+**TODO: this process needs a step for hardening the shaft, and a step for polishing it, and a method for cutting a pinion.**
 
 Put the silver steel rod stock in the collet chuck.
 
