@@ -116,7 +116,7 @@ sub md2html {
     $html =~ s/href="([^\/"]+)\.md"/href="$1.html"/g;
 
     # fix imagebin links
-    $html =~ s/<a href="https:\/\/img\.incoherency\.co\.uk\/(\d+)">[^<]+<\/a>/<a class="img-link" href="https:\/\/img.incoherency.co.uk\/$1"><img src="https:\/\/img.incoherency.co.uk\/$1\/thumb"><\/a>/g;
+    $html =~ s/<a href="https:\/\/img\.incoherency\.co\.uk\/(\d+)">[^<]+<\/a>/<div class="img-container"><a class="img-link" href="https:\/\/img.incoherency.co.uk\/$1"><img src="https:\/\/img.incoherency.co.uk\/$1\/thumb"><\/a><\/div>/g;
 
     return $html;
 }
@@ -127,9 +127,8 @@ sub md2html_preview {
     # strip title
     $md =~ s/^# .*//;
 
-    if (length($md) > 200) {
-        $md = substr($md, 0, 200) . '...';
-    }
+    my $maxlen = 300;
+    $md = substr($md, 0, $maxlen) . '...' if length $md > $maxlen;
 
     return md2html($md);
 }

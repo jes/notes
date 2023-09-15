@@ -1,4 +1,7 @@
 <div class="preview">
-<a href="__NAME__.html">__TITLE__</a><br>
+<b><a href="__NAME__.html">__TITLE__</a></b><br>
 __PREVIEW__
+<a href="__NAME__.html">[Read more]</a>
 </div>
+<hr>
+<br>
