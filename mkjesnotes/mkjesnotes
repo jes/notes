@@ -23,12 +23,16 @@ my @stories;
 for my $file (sort glob("$indir/*.md")) {
     (my $name = $file) =~ s/^\Q$indir\E\///;
     $name =~ s/\.md$//;
-    my $modified = `git log -1 --pretty="format:%ct" \Q$file\E` || time;
+
+    my ($modified, $commit) = split / /, `git log -1 --pretty="format:%ct %H" \Q$file\E`;
+    $modified //= 'never';
+    $commit //= '';
 
     my $story = {
         file => $file,
         name => $name,
         modified => $modified,
+        commit => $commit,
         markdown => slurp($file),
         # title => either "# title" from first line of markdown, else $name
     };
@@ -108,6 +112,7 @@ sub template {
     $html =~ s/__TITLE__/$story->{title}/g;
     $html =~ s/__NAME__/$story->{name}/g;
     $html =~ s/__LAST_MODIFIED__/$story->{modified}/g;
+    $html =~ s/__LAST_COMMIT__/$story->{commit}/g;
     $html =~ s/__NAV__/$NAVHTML/g;
     $html =~ s/__PREVIEW__/md2html_preview($story->{markdown})/ge;
     $html =~ s/__URL__/$story->{url}/g;
@@ -136,7 +141,7 @@ sub md2html {
     my ($md) = @_;
 
     # fix un-hyperlinked hyperlinks
-    $md =~ s/(https?:\/\/\S+)/[$1]($1)/g;
+    $md =~ s/(?<!\[)(https?:\/\/\S+)/[$1]($1)/g;
 
     my $html = markdown($md);
 
@@ -165,7 +170,7 @@ sub lastmodified {
     my ($story) = @_;
 
     # in markdown format
-    return "*Last modified: " . strftime("%Y-%m-%d %H:%M:%S", gmtime($story->{modified})) . "*\n";
+    return "*Last modified: [https://github.com/jes/notes/commit/$story->{commit}](" . strftime("%Y-%m-%d %H:%M:%S", gmtime($story->{modified})) . ")*\n";
 }
 
 sub navhtml {
