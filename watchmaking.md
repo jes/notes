@@ -112,3 +112,30 @@ If the pivot bent in this process, put the shaft (with gear) back in the lathe, 
 soft drift. This is less likely to happen if using hardened shafts and proper staking tools.
 
 If the gear is loose on the shaft, use Loctite 603 to secure it.
+
+## Making a die block
+
+https://img.incoherency.co.uk/4633
+
+[2023-09-16](20230916.md): I made this first pass at an aluminium die block.
+
+**TODO: I haven't tried the following process.**
+
+Start with a soft material (probably aluminium). If you try to use tool steel you are in
+for a [world of pain](20230916.md).
+
+Work out which hole diameters you want and what spacing you want.
+
+Cut a piece of (without loss of generality) aluminium roughly to size.
+
+Mount it in the milling machine and setup your coordinate system.
+
+Drill counter-bores (maybe 3-5mm?) in the location of each hole, stopping short of the full thickness
+of the material (maybe 1mm or 2mm short).
+
+Flip the work over (or, if all the drills are long enough, don't even bother flipping it over).
+
+Now drill the actual holes in their required locations, but importantly the holes are only 1-2mm deep,
+which makes it unlikely that the drills will break.
+
+Now take the metal out of the milling machine and draw-file the surfaces.
