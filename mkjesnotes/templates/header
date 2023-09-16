@@ -9,6 +9,9 @@ html, body {
     font-family: monospace;
     font-size: 1.1em;
 }
+code {
+    background: #eee;
+}
 .img-container {
     display: block;
 }
@@ -16,6 +19,23 @@ html, body {
     font-size: 1em;
 }
 .preview .img-link img {
+    max-width: 200px;
+    max-height: 200px;
+}
+.gallery-img {
+    display: inline-block;
+    border: solid 1px black;
+    padding: 2px;
+    margin: 2px;
+    vertical-align: middle;
+    max-width: 210px;
+}
+.gallery-img ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+.gallery-img img {
     max-width: 200px;
     max-height: 200px;
 }

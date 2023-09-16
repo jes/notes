@@ -15,7 +15,9 @@ mkdir $outdir;
 my $HEADER = slurp("$templatedir/header");
 my $FOOTER = slurp("$templatedir/footer");
 my $PREVIEW = slurp("$templatedir/preview");
-my $NAVHTML = navhtml(Index => 'index.html') . ' . ';
+my $GALLERYITEM = slurp("$templatedir/galleryitem");
+
+my $NAVHTML = navhtml(Index => 'index.html') . navhtml('Gallery' => 'gallery.html') . ' . ';
 
 my @stories;
 for my $file (sort glob("$indir/*.md")) {
@@ -46,6 +48,7 @@ for my $file (sort glob("$indir/*.md")) {
 
 write_story($_) for @stories;
 write_index(@stories);
+write_gallery(@stories);
 
 sub write_story {
     my ($story) = @_;
@@ -77,6 +80,29 @@ sub write_index {
     }));
 }
 
+sub write_gallery {
+    my (@stories) = @_;
+
+    my $html = '';
+
+    my %image;
+
+    for my $story (sort { $b->{name} cmp $a->{name} } @stories) {
+        while ($story->{markdown} =~ /(https:\/\/img\.incoherency\.co\.uk\/\d+)/g) {
+            push @{ $image{$1} }, $story;
+        }
+    }
+
+    for my $url (reverse sort keys %image) {
+        my $storieshtml = '<ul>' . join('', map { "<li><a href=\"$_->{name}.html\">$_->{title}</a></li>" } @{ $image{$url} }) . '</ul>';
+        $html .= template($GALLERYITEM, {url => $url, stories => $storieshtml});
+    }
+
+    spit("$outdir/gallery.html", template($HEADER . $html . $FOOTER, {
+        title => 'Gallery',
+    }));
+}
+
 sub template {
     my ($html, $story) = @_;
     $html =~ s/__TITLE__/$story->{title}/g;
@@ -84,6 +110,8 @@ sub template {
     $html =~ s/__LAST_MODIFIED__/$story->{modified}/g;
     $html =~ s/__NAV__/$NAVHTML/g;
     $html =~ s/__PREVIEW__/md2html_preview($story->{markdown})/ge;
+    $html =~ s/__URL__/$story->{url}/g;
+    $html =~ s/__STORIES__/$story->{stories}/g;
     return $html;
 }
 
