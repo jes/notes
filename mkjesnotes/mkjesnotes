@@ -141,7 +141,7 @@ sub md2html {
     my ($md) = @_;
 
     # fix un-hyperlinked hyperlinks
-    $md =~ s/(?<!\[)(https?:\/\/\S+)/[$1]($1)/g;
+    $md =~ s/(?<!\()(https?:\/\/\S+)/[$1]($1)/g;
 
     my $html = markdown($md);
 
@@ -170,7 +170,7 @@ sub lastmodified {
     my ($story) = @_;
 
     # in markdown format
-    return "*Last modified: [https://github.com/jes/notes/commit/$story->{commit}](" . strftime("%Y-%m-%d %H:%M:%S", gmtime($story->{modified})) . ")*\n";
+    return "*Last modified: [" . strftime("%Y-%m-%d %H:%M:%S", gmtime($story->{modified})) . "](https://github.com/jes/notes/commit/$story->{commit})*\n";
 }
 
 sub navhtml {
