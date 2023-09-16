@@ -1,0 +1,5 @@
+<div class="gallery-img">
+    <a href="__URL__"><img src="__URL__/thumb"></a>
+    <br>
+    __STORIES__
+</div>
