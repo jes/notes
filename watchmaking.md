@@ -1,6 +1,19 @@
 # Watchmaking
 
-My techniques for making watch parts.
+List of important unsolved problems:
+
+* how to cut pinions on shafts without crashing the cutter into the collet nut
+* how to cut internal teeth on the barrel (CNC shaping?)
+* how much the mainspring torque will drop as it unwinds
+* whether we want stopwork
+* how to handle bearings for the barrel
+* whether the escapement needs a lever
+* whether the escapement needs lock
+* how to make square shoulders on shafts
+
+---
+
+My techniques for making watch parts:
 
 ## Making gear cutters
 
