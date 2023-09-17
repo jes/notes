@@ -2,7 +2,7 @@
 
 ## 1mm 2-flute end mill in aluminium
 
-On [2023-09-14](20230914.md) I machined a 2mm thick aluminium escape wheel using a 1mm end mill.
+On [2023-09-14](20230914.md) I machined a 2mm thick aluminium escape wheel.
 
 https://img.incoherency.co.uk/4625
 
@@ -50,19 +50,23 @@ It took about half an hour.
 
 ## 2mm 1-flute end mill in aluminium
 
-On [2023-09-15](20230915.md) I made a 3mm thick balance wheel using the 2mm end mill.
+On [2023-09-15](20230915.md) I made a 3mm thick balance wheel.
 
 https://img.incoherency.co.uk/4626
 
 Watch out for the lead-out gouging the work next time...
 
+On [2023-09-17](20230917.md) I made 2x 2mm thick frame plates.
+
+https://img.incoherency.co.uk/4634
+
 Width of cut: **2 mm** (full slotting)
 
 Depth of cut: **0.32 mm**
 
-Horizontal feed: **330 mm/min**
+Horizontal feed: **400 mm/min**
 
-Vertical feed: **330 mm/min**
+Vertical feed: **240 mm/min**
 
 Spindle speed: **24000 rpm**
 

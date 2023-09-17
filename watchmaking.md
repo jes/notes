@@ -3,13 +3,13 @@
 List of important unsolved problems:
 
 * how to cut pinions on shafts without crashing the cutter into the collet nut
-* how to cut internal teeth on the barrel (CNC shaping?)
-* how much the mainspring torque will drop as it unwinds
-* whether we want stopwork
+* how to cut internal teeth on the barrel (**CNC shaping?**)
+* how much the mainspring torque will drop as it unwinds (**intuitively, if the mainspring has N turns then the torque should drop by 1/N after the first turn?**)
+* whether we want stopwork (**I think yes**)
 * how to handle bearings for the barrel
 * whether the escapement needs a lever
 * whether the escapement needs lock
-* how to make square shoulders on shafts
+* how to make square shoulders on shafts (**use the parting blade???**)
 
 ---
 
