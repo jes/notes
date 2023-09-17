@@ -152,3 +152,20 @@ Now drill the actual holes in their required locations, but importantly the hole
 which makes it unlikely that the drills will break.
 
 Now take the metal out of the milling machine and draw-file the surfaces.
+
+## Making pivot holes
+
+https://img.incoherency.co.uk/4634
+
+[2023-09-17](20230917.md): I made these frame parts for the metal escapement prototype.
+
+I just used the 1mm PCB drill and made straight holes. They worked plenty well enough, no need for
+tapered reaming. I expect the same process would work with the 0.5mm PCB drill. And having straight
+pivot holes means they won't wear out so quickly.
+
+One of the shaft pivots was slightly over-sized so it wouldn't fit in the hole. I enlarged the hole
+using a 1.1mm drill in the pin vice.
+
+I also manually
+used a larger drill in the pin vice to make tiny countersinks on the back side for oil cups, I don't
+know if they do any good though.
