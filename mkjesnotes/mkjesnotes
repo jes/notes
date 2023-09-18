@@ -160,10 +160,10 @@ sub md2html_preview {
     # strip title
     $md =~ s/^# .*//;
 
-    my $maxlen = 300;
-    $md = substr($md, 0, $maxlen) . '...' if length $md > $maxlen;
+    # grab headings
+    my @headings = map { s/^#+\s*//; $_ } grep { /^#/ } split /\n/, $md;
 
-    return md2html($md);
+    return join(', ', @headings);
 }
 
 sub lastmodified {
