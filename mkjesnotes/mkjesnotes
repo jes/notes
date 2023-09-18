@@ -161,7 +161,7 @@ sub md2html_preview {
     $md =~ s/^# .*//;
 
     # grab headings
-    my @headings = map { s/^#+\s*//; $_ } grep { /^#/ } split /\n/, $md;
+    my @headings = map { s/^#+\s*//; $_ } grep { /^##[^#]/ } split /\n/, $md;
 
     return join(', ', @headings);
 }
