@@ -10,6 +10,7 @@ List of important unsolved problems:
 * whether the escapement needs a lever
 * whether the escapement needs lock
 * how to make square shoulders on shafts (**use the parting blade???**)
+* how to attach a hairspring (**see the collet idea in [20230921](20230921.md)?**)
 
 ---
 
