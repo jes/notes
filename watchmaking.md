@@ -7,8 +7,6 @@ List of important unsolved problems:
 * how much the mainspring torque will drop as it unwinds (**intuitively, if the mainspring has N turns then the torque should drop by 1/N after the first turn?**)
 * whether we want stopwork (**I think yes**)
 * how to handle bearings for the barrel
-* whether the escapement needs a lever
-* whether the escapement needs lock
 * how to make square shoulders on shafts (**use the parting blade???**)
 * how to attach a hairspring (**see the collet idea in [20230921](20230921.md)?**)
 
