@@ -10,7 +10,7 @@ but more generally useful. Like a mini-GIS.
 [2023-09-22](20230922.md) I tried to use tg-timer but couldn't get it to work, and I'm not sure if
 it's too specifically targeted at standard lever escapements with defined periods.
 
-I really just want something that will listen to the microphone and tell me what frequency it is
+I really just want something that will listen to the microphone or an audio/video recording and tell me what frequency it is
 ticking at, and maybe a way to plot some visualisation of the beat/regularity.
 
 ## Video hosting
