@@ -32,3 +32,10 @@ Maybe a little web tool that lets me load in an image (and optionally a 2nd imag
 and then lets me measure lengths and angles, and, *importantly*, draws the measurements on top of the
 image in a way that makes it convenient for me to show the measurements. For example with red lines
 and red numbers like in the examples above.
+
+## Moodboard
+
+Something that lets me stick in images that I want to keep in my mind, crop them, scale them, and lay them
+out in a sensible way. I don't want to have to manually do the layout, but I want to be able to manually
+tweak the layout. I think Pinterest sort of does this, but I'm not interested in proprietary software or
+data silos.
