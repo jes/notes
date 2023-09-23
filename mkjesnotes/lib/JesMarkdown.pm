@@ -1,4 +1,5 @@
-# This is Text::Markdown but hacked by jes
+# This is Text::Markdown but hacked by jes:
+#  - add anchor ids on h2 tags
 package JesMarkdown;
 require 5.008_000;
 use strict;
@@ -173,6 +174,7 @@ sub new {
 
     my $self = { params => \%p };
     bless $self, ref($class) || $class;
+    $self->{num_headings} = 0;
     return $self;
 }
 
@@ -921,7 +923,12 @@ sub _DoHeaders {
 sub _GenerateHeader {
     my ($self, $level, $id) = @_;
 
-    return "<h$level>"  .  $self->_RunSpanGamut($id)  .  "</h$level>\n\n";
+    if ($level == 2) {
+        my $n = $self->{num_headings}++;
+        return "<a id=\"markdown-heading-$n\"><h$level>"  .  $self->_RunSpanGamut($id)  .  "</h$level></a>\n\n";
+    } else {
+        return "<h$level>"  .  $self->_RunSpanGamut($id)  .  "</h$level>\n\n";
+    }
 }
 
 sub _DoLists {

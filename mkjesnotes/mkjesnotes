@@ -3,7 +3,11 @@
 use strict;
 use warnings;
 
-use Text::Markdown qw(markdown);
+use FindBin;
+
+use lib "$FindBin::Bin/lib/";
+
+use JesMarkdown qw(markdown);
 use POSIX qw(strftime);
 
 my $indir = "..";
@@ -13,6 +17,7 @@ my $templatedir = "templates";
 mkdir $outdir;
 
 my $HEADER = slurp("$templatedir/header");
+my $STORYHEADER = slurp("$templatedir/storyheader");
 my $FOOTER = slurp("$templatedir/footer");
 my $PREVIEW = slurp("$templatedir/preview");
 my $GALLERYITEM = slurp("$templatedir/galleryitem");
@@ -57,15 +62,11 @@ write_gallery(@stories);
 sub write_story {
     my ($story) = @_;
 
-    # put "last modified" under the title
+    # strip title
     my $markdown = $story->{markdown};
-    if ($markdown =~ s/^(# .*)//) {
-        $markdown = $1 . "\n" . lastmodified($story) . $markdown;
-    } else {
-        $markdown = lastmodified($story) . $markdown;
-    }
+    $markdown =~ s/^(# .*)//;
 
-    my $html = $HEADER . md2html($markdown) . $FOOTER;
+    my $html = $HEADER . $STORYHEADER . md2html($markdown) . $FOOTER;
     spit("$outdir/$story->{name}.html", template($html, $story));
 }
 
@@ -111,10 +112,11 @@ sub template {
     my ($html, $story) = @_;
     $html =~ s/__TITLE__/$story->{title}/g;
     $html =~ s/__NAME__/$story->{name}/g;
-    $html =~ s/__LAST_MODIFIED__/$story->{modified}/g;
+    $html =~ s/__LAST_MODIFIED__/strftime("%Y-%m-%d %H:%M:%S", gmtime($story->{modified}))/ge;
     $html =~ s/__LAST_COMMIT__/$story->{commit}/g;
     $html =~ s/__NAV__/$NAVHTML/g;
-    $html =~ s/__PREVIEW__/md2html_preview($story->{markdown})/ge;
+    $html =~ s/__PREVIEW__/previewhtml($story)/ge;
+    $html =~ s/__CONTENTS__/contentshtml($story)/ge;
     $html =~ s/__URL__/$story->{url}/g;
     $html =~ s/__STORIES__/$story->{stories}/g;
     return $html;
@@ -154,16 +156,31 @@ sub md2html {
     return $html;
 }
 
-sub md2html_preview {
-    my ($md) = @_;
+sub previewhtml {
+    my ($story) = @_;
+    return join(', ', headings($story));
+}
 
-    # strip title
-    $md =~ s/^# .*//;
+sub contentshtml {
+    my ($story) = @_;
+    my @h = headings($story);
+    return "" if @h < 2;
 
-    # grab headings
-    my @headings = map { s/^#+\s*//; $_ } grep { /^##[^#]/ } split /\n/, $md;
+    my $html = '<ul>';
+    for my $i (0 .. $#h) {
+        $html .= '<li>';
+        $html .= "<a href=\"#markdown-heading-$i\">$h[$i]</a>";
+        $html .= '</li>';
+    }
+    $html .= "</ul>\n";
+    return $html;
+}
 
-    return join(', ', @headings);
+sub headings {
+    my ($story) = @_;
+    return map { s/^#+\s*//; $_ }
+           grep { /^##[^#]/ }
+           split /\n/, $story->{markdown};
 }
 
 sub lastmodified {
