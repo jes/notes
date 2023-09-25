@@ -13,6 +13,11 @@ html, body {
 code {
     background: #eee;
 }
+blockquote {
+    border-left: solid 3px #888;
+    margin-left: 0px;
+    padding-left: 20px;
+}
 .img-container {
     display: block;
 }
