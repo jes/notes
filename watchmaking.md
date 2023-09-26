@@ -168,3 +168,10 @@ using a 1.1mm drill in the pin vice.
 I also manually
 used a larger drill in the pin vice to make tiny countersinks on the back side for oil cups, I don't
 know if they do any good though.
+
+---
+
+## Useful products
+
+* "Horosilv", a pot of 120g for £40, you rub it on brass and it silver-plates it, maybe good for the dial.
+* "Rub N Brite", a metal polish that leaves a coating of wax to protect the mirror finish.
