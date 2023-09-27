@@ -34,4 +34,4 @@ What have we lost? What have we gained? Give examples.
 ## The decline of the physical realm
 
 How everything in the physical world is getting worse. Roads are always closed, restaurants make you piss
-about with QR codes, etc.
+about with QR codes, bins only collected every 3 weeks, etc.
