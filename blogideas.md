@@ -30,3 +30,8 @@ F1 = 1 - (1 - F0)/G
 
 In the olden days people solved problems by knowing techniques. Now we solve problems by buying products.
 What have we lost? What have we gained? Give examples.
+
+## The decline of the physical realm
+
+How everything in the physical world is getting worse. Roads are always closed, restaurants make you piss
+about with QR codes, etc.
