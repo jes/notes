@@ -6,3 +6,8 @@ Positive angles turn the axis **anti-clockwise** as you view towards the chuck. 
 to correct for the concentricity error, it works pretty well.
 
 [2023-09-03](20230903.md): I re-cut the register for the chuck to try to improve concentricity.
+
+Potential improvements:
+
+* some method to more accurately square it to the table
+* a (manual?) "brake" to lock it in place to take the load off the servo, when just using for positioning
