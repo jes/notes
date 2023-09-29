@@ -19,6 +19,7 @@ mkdir $outdir;
 my $HEADER = slurp("$templatedir/header");
 my $STORYHEADER = slurp("$templatedir/storyheader");
 my $FOOTER = slurp("$templatedir/footer");
+my $STORYFOOTER = slurp("$templatedir/storyfooter");
 my $PREVIEW = slurp("$templatedir/preview");
 my $GALLERYITEM = slurp("$templatedir/galleryitem");
 
@@ -55,6 +56,15 @@ for my $file (sort glob("$indir/*.md")) {
     push @stories, $story;
 }
 
+for my $i (0..$#stories) {
+    my $story = $stories[$i];
+    next if !$story->{daily};
+    my $next = $stories[$i+1];
+    my $prev = $stories[$i-1];
+    $story->{next} = $next if $next->{daily};
+    $story->{prev} = $prev if $prev->{daily};
+}
+
 write_story($_) for @stories;
 write_index(@stories);
 write_gallery(@stories);
@@ -66,7 +76,7 @@ sub write_story {
     my $markdown = $story->{markdown};
     $markdown =~ s/^(# .*)//;
 
-    my $html = $HEADER . $STORYHEADER . md2html($markdown) . $FOOTER;
+    my $html = $HEADER . $STORYHEADER . md2html($markdown) . $STORYFOOTER . $FOOTER;
     spit("$outdir/$story->{name}.html", template($html, $story));
 }
 
@@ -119,6 +129,7 @@ sub template {
     $html =~ s/__CONTENTS__/contentshtml($story)/ge;
     $html =~ s/__URL__/$story->{url}/g;
     $html =~ s/__STORIES__/$story->{stories}/g;
+    $html =~ s/__PREV_NEXT__/prevnexthtml($story)/ge;
     return $html;
 }
 
@@ -173,6 +184,15 @@ sub contentshtml {
         $html .= '</li>';
     }
     $html .= "</ul>\n";
+    return $html;
+}
+
+sub prevnexthtml {
+    my ($story) = @_;
+
+    my $html = '';
+    $html .= "<a href=\"$story->{prev}{name}.html\">&lt; $story->{prev}{title}</a> " if $story->{prev};
+    $html .= "<a href=\"$story->{next}{name}.html\">$story->{next}{title} &gt;</a> " if $story->{next};
     return $html;
 }
 
