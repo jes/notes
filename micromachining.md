@@ -2,6 +2,12 @@
 
 ## 1mm 2-flute end mill in aluminium
 
+* Width of cut: **1 mm** (full slotting)
+* Depth of cut: **0.3 mm**
+* Horizontal feed: **100 mm/min**
+* Vertical feed: **50 mm/min**
+* Spindle speed: **24000 rpm**
+
 On [2023-09-14](20230914.md) I machined a 2mm thick aluminium escape wheel.
 
 https://img.incoherency.co.uk/4625
@@ -9,16 +15,6 @@ https://img.incoherency.co.uk/4625
 This is what I learnt.
 
 The feed rate computed by the calculator is too high, try the following:
-
-Width of cut: **1 mm** (full slotting)
-
-Depth of cut: **0.3 mm**
-
-Horizontal feed: **100 mm/min**
-
-Vertical feed: **50 mm/min**
-
-Spindle speed: **24000 rpm**
 
 **Make sure you measure the runout before starting, and attempt to minimise it.**
 
@@ -48,11 +44,22 @@ The outer diameter across tooth tips is 26.1mm (nominally 26.4mm, but they are v
 
 It took about half an hour.
 
-## 2mm 1-flute end mill in aluminium
+## 2mm 1-flute end mill in aluminium/brass
+
+* Width of cut: **2 mm** (full slotting)
+* Depth of cut: **0.32 mm**
+* Horizontal feed: **400 mm/min**
+* Vertical feed: **240 mm/min**
+* Spindle speed: **24000 rpm**
 
 On [2023-09-15](20230915.md) I made a 3mm thick balance wheel.
 
 https://img.incoherency.co.uk/4626
+
+I did not bother measuring the run-out before starting and it was fine. I drilled the holes with drills instead of the end mill.
+It went *much* faster than the 1mm end mill did, and seemed less likely to break. I ran out of engine degreaser so at the
+end the chip evacuation was very poor, and there is a very slightly worse surface finish on the bottom of the outside profile.
+So spraying the degreaser is definitely helpful.
 
 Watch out for the lead-out gouging the work next time...
 
@@ -60,17 +67,9 @@ On [2023-09-17](20230917.md) I made 2x 2mm thick frame plates.
 
 https://img.incoherency.co.uk/4634
 
-Width of cut: **2 mm** (full slotting)
+On [2023-09-30](20230930.md) I made a 1mm thick brass scale for the Douzieme gauge.
 
-Depth of cut: **0.32 mm**
+https://img.incoherency.co.uk/4727
 
-Horizontal feed: **400 mm/min**
-
-Vertical feed: **240 mm/min**
-
-Spindle speed: **24000 rpm**
-
-I did not bother measuring the run-out before starting and it was fine. I drilled the holes with drills instead of the end mill.
-It went *much* faster than the 1mm end mill did, and seemed less likely to break. I ran out of engine degreaser so at the
-end the chip evacuation was very poor, and there is a very slightly worse surface finish on the bottom of the outside profile.
-So spraying the degreaser is definitely helpful.
+I used WD-40 as a lubricant, but the brass chips seemed to fly away from the work much more readily than the aluminium ones,
+so it wasn't nearly as necessary.
