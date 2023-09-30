@@ -12,6 +12,13 @@ List of important unsolved problems:
 
 ---
 
+## Resources
+
+* [Watchmaking tools](https://watchmaking.weebly.com/watchmakers-tools.html)
+* [Richard Watkins Horological Books](http://watkinsr.id.au/)
+
+---
+
 My techniques for making watch parts:
 
 ## Making gear cutters
