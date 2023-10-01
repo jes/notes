@@ -81,6 +81,7 @@ We would get 5x the precision of a normal Vernier caliper or micrometer, because
 ## Grbl vs LinuxCNC
 
 Grbl:
+
 * cheaper hardware
 * higher step rate achievable (compared to parallel port)
 * better UIs available
@@ -88,5 +89,6 @@ Grbl:
 * less bugs
 
 LinuxCNC:
+
 * potentially more configurable?
 * supports weirder hardware setups?
