@@ -73,3 +73,13 @@ https://img.incoherency.co.uk/4727
 
 I used WD-40 as a lubricant, but the brass chips seemed to fly away from the work much more readily than the aluminium ones,
 so it wasn't nearly as necessary.
+
+On [2023-10-01](20231001.md) I made a tiny brass clamp for the Douzieme gauge:
+
+https://img.incoherency.co.uk/4729
+
+I first drilled the holes with the 1.2mm PCB drill (later opened up to 1.7mm with the little 14v cordless drill).
+Then I carefully made the countersinks by plunging the 90-degree 6mm V-bit tool. This tool was chattering quite a lot,
+so I went very slowly.
+
+Then I did the profile cut, at 60% feed rate, it took less than a minute.
