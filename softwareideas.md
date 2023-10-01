@@ -39,3 +39,36 @@ Something that lets me stick in images that I want to keep in my mind, crop them
 out in a sensible way. I don't want to have to manually do the layout, but I want to be able to manually
 tweak the layout. I think Pinterest sort of does this, but I'm not interested in proprietary software or
 data silos.
+
+## G-code sender
+
+The G-code sender should have normal overrides like feed rate and spindle speed, but it should also
+preprocess your G-code and offer a "depth of cut" override. Also preprocess your G-code to detect
+different "sections" and allow just running 1 section at a time, or repeating a section with different
+depth (repeating with different cutter compensation?). And finally, maybe detect helix moves, or pocket
+moves, and allow a "width of cut" override? That one is much harder.
+
+If I made a G-code sender to my taste I'd probably want to use it everywhere, which means the milling
+machine would probably have to switch to Grbl, and Grbl doesn't have cutter compensation, so might have to skip that.
+
+Maybe it's best to add my features to UGS instead of starting from scratch, not sure which would be more trouble.
+
+Features I like from UGS, or would like that aren't in UGS:
+
+* MDI but with pipelining of commands
+* 3d view
+* g-code view
+* click in 3d view to "jog to here", "set current coordinates" or "follow outline"
+* DRO with arithmetic
+* jogging - maybe want an easy way to make a physical jog controller with knobs for feed rate etc.
+* display of active G codes (G91 etc.)
+* standard overrides
+* "run from line" in g-code display
+* current Z coordinate override
+* depth of cut override
+* "section" runner
+* start section from a given depth (i.e. skip the first few laps)
+* stop section at a given depth (i.e. skip the last few laps)
+
+Probably the first things to look at are how easy it is to preprocess the G-code to detect sections and laps,
+and how easy it is to interrupt Grbl to flush the planner buffer so that we can change the Z coordinate.

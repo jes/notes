@@ -90,5 +90,5 @@ Grbl:
 
 LinuxCNC:
 
-* potentially more configurable?
-* supports weirder hardware setups?
+* more features (e.g. cutter compensation, movement coordinated with spindle rotation for rigid tapping)
+* supports more complex motion systems
