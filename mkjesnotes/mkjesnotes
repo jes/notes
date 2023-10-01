@@ -85,8 +85,17 @@ sub write_index {
 
     my $html = '';
 
+    my $month = '';
+
     for my $story (sort { $b->{name} cmp $a->{name} } @stories) {
         next if !$story->{daily};
+        if ($story->{title} =~ /^(\d{4}-\d{2})/) {
+            my $newmonth = $1;
+            if ($month ne $newmonth) {
+                $html .= "<h2>$newmonth</h2>";
+                $month = $newmonth;
+            }
+        }
         $html .= template($PREVIEW, $story);
     }
 
