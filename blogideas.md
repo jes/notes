@@ -77,3 +77,16 @@ The "Douzieme Vernier caliper" would be a Douzieme gauge with a Vernier scale.
 The "Douzieme micrometer" would be a Douzieme gauge with a micrometer screw to expand the legs.
 
 We would get 5x the precision of a normal Vernier caliper or micrometer, because of the Douzieme gauge leverage.
+
+## Grbl vs LinuxCNC
+
+Grbl:
+* cheaper hardware
+* higher step rate achievable (compared to parallel port)
+* better UIs available
+* no need for dedicated PC
+* less bugs
+
+LinuxCNC:
+* potentially more configurable?
+* supports weirder hardware setups?
