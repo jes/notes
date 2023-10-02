@@ -49,7 +49,11 @@ for my $file (sort glob("$indir/*.md")) {
         $story->{title} = $name;
     }
 
-    $story->{daily} = 1 if $name =~ /^20\d\d[01]\d[0123]\d$/;
+    if ($name =~ /^(20\d\d)([01]\d)([0123]\d)$/) {
+        my ($year, $month, $day) = ($1, $2, $3);
+        die "$name: $year/$month/$day: title ($story->{title}) does not match filename" if $story->{title} ne "$year-$month-$day";
+        $story->{daily} = 1;
+    }
 
     $NAVHTML .= navhtml($story->{title}, "$story->{name}.html") if !$story->{daily};
 
