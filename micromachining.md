@@ -47,9 +47,9 @@ It took about half an hour.
 ## 2mm 1-flute end mill in aluminium/brass
 
 * Width of cut: **2 mm** (full slotting)
-* Depth of cut: **0.32 mm**
+* Depth of cut: try **0.5 mm** (was 0.32mm before)
 * Horizontal feed: **400 mm/min**
-* Vertical feed: **240 mm/min**
+* Vertical feed: **200 mm/min**
 * Spindle speed: **24000 rpm**
 
 On [2023-09-15](20230915.md) I made a 3mm thick balance wheel.
