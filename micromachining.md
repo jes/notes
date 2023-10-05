@@ -83,3 +83,12 @@ Then I carefully made the countersinks by plunging the 90-degree 6mm V-bit tool.
 so I went very slowly.
 
 Then I did the profile cut, at 60% feed rate, it took less than a minute.
+
+On [2023-10-05](20231005.md) I made these frame plates for the metal escapement model:
+
+https://img.incoherency.co.uk/4772
+
+First drilled the 4 holes in the middle with the 0.5mm PCB drill (later opened up by hand with the pin vice).
+I fed in **0.1 mm** increments, at **30 mm/min** to drill the 0.5mm holes and it worked without any drama.
+I sprayed WD-40 on the surface before starting. Even though I used a 0.5mm PCB drill, the holes needed to be opened
+up to 0.5mm with a piece of sharpened 0.5mm blue pivot steel.
