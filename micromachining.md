@@ -44,6 +44,14 @@ The outer diameter across tooth tips is 26.1mm (nominally 26.4mm, but they are v
 
 It took about half an hour.
 
+On [2023-10-06](20231006.md) I made this escape wheel:
+
+https://img.incoherency.co.uk/4784
+
+I broke the first tool, possibly because I forgot to check the runout. I was using the 4mm collet because
+I forgot that I should maybe not. I reduced the feed rate to **40 mm/min** for the second attempt, and it worked
+without drama. I wish I had measured the runout though.
+
 ## 2mm 1-flute end mill in aluminium/brass
 
 * Width of cut: **2 mm** (full slotting)
@@ -92,3 +100,25 @@ First drilled the 4 holes in the middle with the 0.5mm PCB drill (later opened u
 I fed in **0.1 mm** increments, at **30 mm/min** to drill the 0.5mm holes and it worked without any drama.
 I sprayed WD-40 on the surface before starting. Even though I used a 0.5mm PCB drill, the holes needed to be opened
 up to 0.5mm with a piece of sharpened 0.5mm blue pivot steel.
+
+On [2023-10-06](20231006.md) I made this escape wheel:
+
+https://img.incoherency.co.uk/4784
+
+Roughed with the 2mm end mill, at **14000 rpm** and **40 mm/min**.
+
+## 0.6mm fibreglass-cutting tool
+
+* Width of cut: **0.1 mm**
+* Depth of cut: **0.1 mm**
+* Horizontal feed: **40 mm/min**
+* Vertical feed: **20 mm/min**
+* Spindle speed: **24000 rpm**
+
+On [2023-10-06](20231006.md) I made this escape wheel:
+
+https://img.incoherency.co.uk/4784
+
+Most of the cutting was down with the 1mm and 2mm tools, as detailed above, but finishing the roots of the
+teeth was done with the 0.6mm tool. It worked without drama, but I had my coordinate system misaligned so
+only some of the teeth were cut correctly.
