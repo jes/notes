@@ -105,7 +105,7 @@ On [2023-10-06](20231006.md) I made this escape wheel:
 
 https://img.incoherency.co.uk/4784
 
-Roughed with the 2mm end mill, at **14000 rpm** and **40 mm/min**.
+Roughed with the 2mm end mill, at **14000 rpm** and **150 mm/min**.
 
 ## 0.6mm fibreglass-cutting tool
 
