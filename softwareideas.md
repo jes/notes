@@ -78,9 +78,15 @@ and how easy it is to interrupt Grbl to flush the planner buffer so that we can 
 It's like Protohackers except every problem is a program and a bug report, and you have to fix the bug
 and submit your patch, shortest patch wins.
 
+Maybe the entire buggy application is released upfront and the UI is like a bug tracker, and then the
+leaderboard is based on a score for how many you've solved, and how short your patches were, tie-broken
+by the time submitted. The leaderboard could show a SHA256 of the patch so you can see which people
+had different fixes.
+
 Twists:
 
 * no bug report
 * incorrect bug report
 * multiple bug reports
 * multiple bugs
+* you don't have to submit a patch, you have to submit an *exploit*
