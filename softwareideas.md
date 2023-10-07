@@ -72,3 +72,15 @@ Features I like from UGS, or would like that aren't in UGS:
 
 Probably the first things to look at are how easy it is to preprocess the G-code to detect sections and laps,
 and how easy it is to interrupt Grbl to flush the planner buffer so that we can change the Z coordinate.
+
+## Debughackers
+
+It's like Protohackers except every problem is a program and a bug report, and you have to fix the bug
+and submit your patch, shortest patch wins.
+
+Twists:
+
+* no bug report
+* incorrect bug report
+* multiple bug reports
+* multiple bugs
