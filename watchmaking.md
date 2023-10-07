@@ -69,9 +69,18 @@ See [4thaxis](4thaxis.md) for how to use `mk-gear` to cut the gear teeth, correc
 
 [2023-09-15](20230915.md): I made shafts for a 2x scale escape wheel and balance wheel.
 
-**TODO: this process needs a step for hardening the shaft, and a step for polishing it, and a method for cutting a pinion.**
+[2023-10-07](20231007.md): I tried to make a shaft for an escape wheel.
 
-Put the silver steel rod stock in the collet chuck.
+(If starting with blued pivot steel, obviously skip the heat treatment).
+
+Cut off a length of silver steel slightly over the required length. Put it on the
+fire brick thing, and prepare a small pot of water and some tweezers. Heat the part with the big blowtorch until bright red,
+hold that temperature for a few seconds, and then use the tweezers to plunge it into the water.
+
+Now take it out, sand off the scale, and switch to the smaller blowtorch. Gently apply heat intermittently
+until it turns a nice blue colour, and then stop and let it cool down (is it OK to cool it down with water?).
+
+Put the blued rod in the collet chuck.
 
 Use a right-hand turning tool, with a DCGT (ground) insert, with 0.2mm nose radius if possible.
 
