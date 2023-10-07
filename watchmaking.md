@@ -80,6 +80,8 @@ hold that temperature for a few seconds, and then use the tweezers to plunge it 
 Now take it out, sand off the scale, and switch to the smaller blowtorch. Gently apply heat intermittently
 until it turns a nice blue colour, and then stop and let it cool down (is it OK to cool it down with water?).
 
+https://img.incoherency.co.uk/4791
+
 Put the blued rod in the collet chuck.
 
 Use a right-hand turning tool, with a DCGT (ground) insert, with 0.2mm nose radius if possible.
