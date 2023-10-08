@@ -117,7 +117,7 @@ sub write_gallery {
 
     for my $story (sort { $b->{name} cmp $a->{name} } @stories) {
         while ($story->{markdown} =~ /(https:\/\/img\.incoherency\.co\.uk\/\d+)/g) {
-            push @{ $image{$1} }, $story;
+            push @{ $image{$1} }, $story if ! grep { $_ eq $story } @{ $image{$1} };
         }
     }
 
