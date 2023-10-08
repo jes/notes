@@ -116,6 +116,9 @@ https://img.incoherency.co.uk/4625
 
 [2023-09-14](20230914.md): I made an escape wheel using the 1mm end mill.
 
+[2023-10-05](20231005.md): I tried to use the superglue method to cut an escape wheel, and it got flicked off
+the glue. It may be better to do the crossing out straight on the end of the bar, before parting off the disc.
+
 **TODO: I haven't actually tried this.**
 
 With the completed gear still attached to the superglue arbor in the collet chuck, transfer
