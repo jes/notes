@@ -122,3 +122,24 @@ https://img.incoherency.co.uk/4784
 Most of the cutting was down with the 1mm and 2mm tools, as detailed above, but finishing the roots of the
 teeth was done with the 0.6mm tool. It worked without drama, but I had my coordinate system misaligned so
 only some of the teeth were cut correctly.
+
+On [2023-10-08](20231008.md) I made this pallet fork:
+
+https://img.incoherency.co.uk/4813
+
+The profile was cut with the 2mm tool as above. Drilling with PCB drills as below, and the slot was cut with the 0.6mm tool,
+including a tiny amount of full slotting. I slotted at **16 mm/min**, with 0.1mm depth of cut.
+
+## Using PCB drills (0.2 mm .. 1.3 mm)
+
+* Feed rate: **10 mm/min**
+* Jog increment: **0.1 mm**
+
+Consult CAD to work out hole locations. Manually jog to the hole location.
+
+Manually click the "Z down" button at some
+sensible cadence (such that each move is finished before you click again) until desired depth is reached.
+
+On [2023-10-08](20231008.md) I drilled the holes in this pallet fork:
+
+https://img.incoherency.co.uk/4813
