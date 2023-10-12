@@ -50,3 +50,13 @@ LinuxCNC:
 
 * more features (e.g. cutter compensation, movement coordinated with spindle rotation for rigid tapping)
 * supports more complex motion systems
+
+## The tunnel locked room murder idea
+
+Probably in 2 parts, first part with the clues and puzzle setup, second part with the conclusion
+
+## 4 polite disagreements
+
+A series of 8 very-short stories in which the main character disagrees with a decision made by someone else.
+
+We explore every combination of (rude or polite disagreement), (they acquiesced or didn't), (it worked out well or didn't)
