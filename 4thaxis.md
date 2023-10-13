@@ -17,3 +17,5 @@ to correct for the concentricity error, it works pretty well.
 ## Concentric gear cutting
 
 See https://github.com/jes/concentric-gear-cutting for the script to counteract the eccentricity.
+
+There's also a script in there for cutting pivots on shafts.
