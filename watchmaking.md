@@ -71,6 +71,8 @@ See [4thaxis](4thaxis.md) for how to use `mk-gear` to cut the gear teeth, correc
 
 [2023-10-07](20231007.md): I tried to make a shaft for an escape wheel.
 
+[2023-10-13](20231013.md): I made a shaft for the pallet fork, but used the 4th axis in the milling machine instead of the lathe.
+
 (If starting with blued pivot steel, obviously skip the heat treatment).
 
 Cut off a length of silver steel slightly over the required length. Put it on the
@@ -134,7 +136,11 @@ https://img.incoherency.co.uk/4631
 
 [2023-09-15](20230915.md): I fitted shafts to the 2x scale escape wheel and balance wheel.
 
+[2023-10-13](20231013.md): I fitted shaft and pins to the pallet fork.
+
 **TODO: I probably want some improved staking tools.**
+
+Use a tapered reamer to slightly open up the hole, if the hole was drilled under-sized, which it should have been.
 
 Put the gear on a flat surface with a hole in the middle.
 
