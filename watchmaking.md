@@ -65,15 +65,13 @@ Put the gear cutter in the milling machine.
 
 See [4thaxis](4thaxis.md) for how to use `mk-gear` to cut the gear teeth, correcting for concentricity error.
 
-## Making shafts
+## Heat treatment
 
-[2023-09-15](20230915.md): I made shafts for a 2x scale escape wheel and balance wheel.
+https://img.incoherency.co.uk/4791
 
-[2023-10-07](20231007.md): I tried to make a shaft for an escape wheel.
+[2023-10-07](20231007.md): I tried it for the first time, it worked.
 
-[2023-10-13](20231013.md): I made a shaft for the pallet fork, but used the 4th axis in the milling machine instead of the lathe.
-
-(If starting with blued pivot steel, obviously skip the heat treatment).
+[2023-10-08](20231008.md): I did this again, it worked. Very easy process. I also tried bluing a larger part and it worked there too.
 
 Cut off a length of silver steel slightly over the required length. Put it on the
 fire brick thing, and prepare a small pot of water and some tweezers. Heat the part with the big blowtorch until bright red,
@@ -82,7 +80,13 @@ hold that temperature for a few seconds, and then use the tweezers to plunge it 
 Now take it out, sand off the scale, and switch to the smaller blowtorch. Gently apply heat intermittently
 until it turns a nice blue colour, and then stop and let it cool down (is it OK to cool it down with water?).
 
-https://img.incoherency.co.uk/4791
+## Making shafts on the lathe
+
+[2023-09-15](20230915.md): I made shafts for a 2x scale escape wheel and balance wheel.
+
+[2023-10-07](20231007.md): I tried to make a shaft for an escape wheel.
+
+(If starting with blued pivot steel, obviously skip the heat treatment).
 
 Put the blued rod in the collet chuck.
 
@@ -111,6 +115,23 @@ Now finish turning the other pivot.
 If at any point the partially-made shaft bends because the metal is too soft and you took a too-greedy cut,
 stop the lathe, manually tap it roughly true using the soft drift, and then start the lathe and push the soft
 drift against the spinning part to true it up even more.
+
+## Making pivots on the 4th axis
+
+https://img.incoherency.co.uk/4825
+
+[2023-10-13](20231013.md): I made a shaft for the pallet fork, but used the 4th axis in the milling machine instead of the lathe.
+
+[2023-10-14](20231014.md): I used `mk-pivot` to make pivots of the correct size, no taper caused by the endmill shape, and with better concentricity.
+
+Chuck the shaft in the 4th axis.
+
+Zero the axes with X at the very end of the desired pivot, Y and Z on centre line. (Z at midpoint of eccentric centre line).
+
+Measure the runout with a dial indicator.
+
+Input the dial indicator readings into `$high_reading`, `$low_reading`, and `$high_reading_angle` in `mk-pivot`.
+Run `mk-pivot` to get G-code. Run the G-code.
 
 ## Crossing out
 
