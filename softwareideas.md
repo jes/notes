@@ -90,3 +90,8 @@ Twists:
 * multiple bug reports
 * multiple bugs
 * you don't have to submit a patch, you have to submit an *exploit*
+
+## Gear train calculator
+
+You give it the ratio (with tolerance?), the minimum/maximum number of gears, the minimum/maximum number of teeth per gear,
+and any numbers of teeth that are already fixed, and it searches to find solutions.
