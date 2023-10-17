@@ -9,8 +9,15 @@ to correct for the concentricity error, it works pretty well.
 
 [2023-09-03](20230903.md): I re-cut the register for the chuck to try to improve concentricity.
 
+[2023-10-17](20231017.md): Concentricity error in cutting pivots was about
+0.27mm. So this is no better than before! OK some of the error is from
+the collet, but I did notice that the high spot was always in the same
+place relative to the chuck register, so the chuck register is definitely
+the major source of error.
+
 ## Potential improvements to the 4th axis
 
+* re-cut the chuck register again?
 * some method to more accurately square it to the table
 * a (manual?) "brake" to lock it in place to take the load off the servo, when just using for positioning
 
@@ -18,4 +25,9 @@ to correct for the concentricity error, it works pretty well.
 
 See https://github.com/jes/concentric-gear-cutting for the script to counteract the eccentricity.
 
-There's also a script in there for cutting pivots on shafts.
+## Concentric pivot cutting
+
+There's a script in https://github.com/jes/concentric-gear-cutting
+for cutting pivots on shafts.
+
+Also instructions in [20231017.md](20231017.md) for an efficient workflow.
