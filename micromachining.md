@@ -140,8 +140,9 @@ https://img.incoherency.co.uk/4813
 The profile was cut with the 2mm tool as above. Drilling with PCB drills as below, and the slot was cut with the 0.6mm tool,
 including a tiny amount of full slotting. I slotted at **16 mm/min**, with 0.1mm depth of cut.
 
-## Using PCB drills (0.2 mm .. 1.3 mm)
+## Using PCB drills (0.2 mm .. 1.3 mm) in aluminium
 
+* Speed: **3000 rpm** (probably higher)
 * Feed rate: **10 mm/min**
 * Jog increment: **0.1 mm**
 
@@ -153,3 +154,8 @@ sensible cadence (such that each move is finished before you click again) until 
 On [2023-10-08](20231008.md) I drilled the holes in this pallet fork:
 
 https://img.incoherency.co.uk/4813
+
+On [2023-10-18](20231018.md) I broke the 0.5mm drill, at 2500 rpm, with "G1 Z-2.5 F10", instead of manual jogging.
+I looked on https://incoherency.co.uk/jesref/lathe-speeds.html
+and it works out to about 20k rpm for a 0.5mm HSS drill in aluminium, which I think is a bad idea, but I should probably go
+a bit higher than 2500 (but not too high given the low feed rate), and do some pecking.
