@@ -2,7 +2,7 @@
 
 Positive angles turn the axis **anti-clockwise** as you view towards the chuck. (Is that how it should be?).
 
-## 4th axis usage
+## Alignment
 
 [2023-09-08](20230908.md): I cut gear teeth using the 4th axis, it was 0.25mm out of concentric. I wrote a Perl script
 to correct for the concentricity error, it works pretty well.
@@ -14,6 +14,11 @@ to correct for the concentricity error, it works pretty well.
 the collet, but I did notice that the high spot was always in the same
 place relative to the chuck register, so the chuck register is definitely
 the major source of error.
+
+[2023-10-20](20231020.md): I discovered that the source of the concentricity error is that
+the chuck is registering on the *bolts* rather than on the register. I widened the bolt holes
+and now it is possible to centre it, but there is a bit of play in the register. Better than
+before though.
 
 ## Potential improvements to the 4th axis
 
