@@ -60,3 +60,9 @@ Probably in 2 parts, first part with the clues and puzzle setup, second part wit
 A series of 8 very-short stories in which the main character disagrees with a decision made by someone else.
 
 We explore every combination of (rude or polite disagreement), (they acquiesced or didn't), (it worked out well or didn't)
+
+## The hero and the villain
+
+It's a story about a series of events involving a hero and a villain, and the twist at the end is that they're the same
+person. Even better if the hero's events and the villain's events are the *same* events but viewed from different perspectives
+(and you only work this out at the end).
