@@ -49,3 +49,7 @@ Farrow and Ball estate eggshell in white (?)
 ## Nursery
 
 * Walls: any pure brilliant white matt emulsion
+
+## Shed
+
+* Exterior: Country cream (?)
