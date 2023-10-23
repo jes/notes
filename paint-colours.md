@@ -2,7 +2,8 @@
 
 ## Woodwork
 
-Farrow and Ball estate eggshell in white (?)
+* Farrow and Ball estate eggshell in white (?)
+* Johnstone's interior wood and metal quick dry satin white
 
 ## Living room 
 
@@ -22,7 +23,7 @@ Farrow and Ball estate eggshell in white (?)
 
 ## Utility
 
-* ???
+* White: Johnstone's interior wood and metal quick dry satin
 
 ## Conservatory
 
@@ -34,7 +35,7 @@ Farrow and Ball estate eggshell in white (?)
 
 ## Bathroom
 
-* Ceiling: Johnsons Bathroom white
+* Ceiling: Johnstone's Bathroom white
 
 ## Bedroom
 
