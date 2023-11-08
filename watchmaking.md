@@ -42,28 +42,25 @@ use silver steel and harden it after cutting.
 https://img.incoherency.co.uk/4615
 
 [2023-09-08](20230908.md): I made a brass test gear, 33 teeth, module 0.4, 0.75mm thick, 1mm bore.
+[2023-11-08](20231108.md): I had a lot of trouble with the gear flicking off
+the superglue arbor, suggest cutting teeth before parting off.
 
 Put the brass rod stock in the collet chuck.
 
-Face off the end.
+Face off the end. Turn to diameter.
 
-Part off a disc of a bit more than the required thickness.
-
-Put the superglue arbor in the collet chuck (use the M6 clamping collet in the back of the ER collet to space it out).
-
-Face the end of the superglue arbor, maybe recut air grooves.
-
-Superglue the faced side of the brass disc to the arbor, roughly central.
-
-Turn the disc to final diameter and thickness.
-
-Bore the hole in the disc.
+Bore the hole in the centre.
 
 Transfer the collet chuck to the milling machine.
 
 Put the gear cutter in the milling machine.
 
 See [4thaxis](4thaxis.md) for how to use `mk-gear` to cut the gear teeth, correcting for concentricity error.
+
+Put the collet chuck back in the lathe and part off.
+
+Cut some grooves in the end of the stock, glue the gear to the grooves,
+and face to length.
 
 ## Heat treatment
 
