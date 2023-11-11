@@ -17,6 +17,7 @@ List of important unsolved problems:
 * [Watchmaking tools](https://watchmaking.weebly.com/watchmakers-tools.html)
 * [Adventures in Watchmaking](https://watchmaking.weebly.com/) - looks like he is building a pocket watch
 * [Richard Watkins Horological Books](http://watkinsr.id.au/)
+* [soptera, about John Harrison](https://soptera.wordpress.com/)
 
 ---
 
