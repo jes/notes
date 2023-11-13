@@ -122,6 +122,8 @@ https://img.incoherency.co.uk/4825
 
 [2023-10-14](20231014.md): I used `mk-pivot` to make pivots of the correct size, no taper caused by the endmill shape, and with better concentricity.
 
+[2023-11-13](20231113.md): I discovered that a pivot I previously made at the wrong size is 0.20mm, and seems robust enough, so that is a possible size I could make them.
+
 Chuck the shaft in the 4th axis.
 
 Zero the axes with X at the very end of the desired pivot, Y and Z on centre line. (Z at midpoint of eccentric centre line).
