@@ -18,6 +18,8 @@ List of important unsolved problems:
 * [Adventures in Watchmaking](https://watchmaking.weebly.com/) - looks like he is building a pocket watch
 * [Richard Watkins Horological Books](http://watkinsr.id.au/)
 * [soptera, about John Harrison](https://soptera.wordpress.com/)
+* [Micromechanics and Watchmaking](https://zzmiller.blogspot.com/) - someone attending watchmaking school
+* [Watchmaking School from a Student's Perspective](https://www.bobinchak.com/) - more watchmaking school, some great posts on here
 
 ---
 
