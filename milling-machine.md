@@ -23,6 +23,6 @@ of the ballnut.
  * coolant pump switch on the cabinet
  * air blast
  * fix the power switch
- * knob on the cabinet for feed rate override
+ * knob on the cabinet for feed rate override (maybe see http://linuxcnc.org/docs/html/man/man1/hal_input.1.html for how to do this via USB?)
  * jog pendant with knob for jog feed rate
  * fix the Z backlash
