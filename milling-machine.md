@@ -17,3 +17,12 @@ again and got 0.35mm. I think the problem is that the tighter the gibs get, the 
 gravity has to do backlash compensation for me. You can imagine that if they were totally loose,
 you wouldn't need any backlash compensation because gravity would always hold it against the same side
 of the ballnut.
+
+## Wishlist
+
+ * coolant pump switch on the cabinet
+ * air blast
+ * fix the power switch
+ * knob on the cabinet for feed rate override
+ * jog pendant with knob for jog feed rate
+ * fix the Z backlash
