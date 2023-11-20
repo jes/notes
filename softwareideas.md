@@ -73,6 +73,11 @@ Features I like from UGS, or would like that aren't in UGS:
 Probably the first things to look at are how easy it is to preprocess the G-code to detect sections and laps,
 and how easy it is to interrupt Grbl to flush the planner buffer so that we can change the Z coordinate.
 
+On [2023-11-19](20231119.md) I broke a tool because I did some mental arithmetic wrong in adjusting the Z
+offset. My custom G-code sender should have a way to say "move Z down by 0.1mm" without the user having to
+do any mental arithmetic to work out "OK, it's at Z=5, so I need to touch off at Z=5.1 to get it to be 0.1mm
+lower".
+
 ## Debughackers
 
 It's like Protohackers except every problem is a program and a bug report, and you have to fix the bug
