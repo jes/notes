@@ -2,5 +2,5 @@
 
 Examples of shaft passers:
 
- * https://www.youtube.com/watch?v=rMsyxnryt-s
- * https://www.youtube.com/watch?v=dmPgTDs9FRo
+ * Hook & Moor by Robshop, boating product: https://www.youtube.com/watch?v=rMsyxnryt-s
+ * Heron's Horse: https://www.youtube.com/watch?v=dmPgTDs9FRo
