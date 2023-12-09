@@ -24,6 +24,7 @@ gearbox is, contrary to the representations made in the markings on the motor (1
 about 16.03231:1. I have selected the closest geartrain I could calculate to turn this into minutes and hours, but
 this still leaves an error of about 0.4 seconds per day.
 
+Over a period of 6 months the clock will lose slightly more than 1 minute.
 This is not considered a problem as the time will need setting every 6 months anyway when the clocks change.
 
 ## Troubleshooting
