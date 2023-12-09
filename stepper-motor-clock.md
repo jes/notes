@@ -17,6 +17,8 @@ Use your index finger to **gently turn the minute hand**. The hour hand is geare
 with it, in the proportion of hours to minutes.
 Do not attempt to turn the hour hand directly as this will require a lot of torque and may break the hour hand.
 
+A magnetic clutch allows the hands to move independently of the motor.
+
 ## Timekeeping
 
 The clock will lose about 0.4 seconds per day. This is because the gear ratio of the stepper motor's internal
