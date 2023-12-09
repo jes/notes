@@ -14,7 +14,7 @@ The plug has a 3-amp fuse.
 ## Setting the hands
 
 Use your index finger to **gently turn the minute hand**. The hour hand is geared to the minute hand and will turn
-with it, in proportion of hours to minutes.
+with it, in the proportion of hours to minutes.
 Do not attempt to turn the hour hand directly as this will require a lot of torque and may break the hour hand.
 
 ## Timekeeping
