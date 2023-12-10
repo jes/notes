@@ -29,23 +29,13 @@ this still leaves an error of about 0.4 seconds per day.
 Over a period of 6 months the clock will lose slightly more than 1 minute.
 This is not considered a problem as the time will need setting every 6 months anyway when the clocks change.
 
-## Troubleshooting
+## Components
 
-If the clock makes a loud buzzing noise but is otherwise working, turn it off and on again to cure the buzzing.
-The exact cause of the buzzing is not known, but it has been observed immediately after a transient dip in grid voltage.
+The capacitor is a 47uF ceramic capacitor, and it lives inside a 3d-printed plug that connects to the motor cable.
+https://www.digikey.co.uk/en/products/detail/tdk-corporation/FK20X5R0J476MN000/2815373
 
-If the clock makes a quiet buzzing noise and is stopped, this suggests there is not enough torque to turn the geartrain.
-Pull the drive pin piece off the motor shaft and how hard it is to turn the geartrain, from the motor end, by hand. It
-should be extremely easy. If it is not easy to turn, inspect the geartrain for faults. If it is easy to turn, then the
-problem could be any of:
+The transformer gives 6.3v AC output from 230v AC input. https://www.digikey.co.uk/en/products/detail/triad-magnetics/F-313X/5032119
 
- * the motor is damaged
- * the capacitor is disconnected or damaged
- * the transformer is damaged
-
-It should be easy to replace the motor, but you will need to acquire one with an internal gear ratio of about 16.03231:1
-otherwise the clock will run at the wrong speed.
-
-The installed capacitor is a ceramic capacitor of 47uF, and it lives inside the 3d-printed plug that connects to the motor cable.
-
-The installed transformer is either 6.3v or 12v.
+The motor is a "28BYJ-48" stepper motor, but there are lots of different specifications. You want it to take 12v input
+and have a 16:1 nominal gear reduction. Past that, you may have to experiment to find out that is close enough to 16.03231:1
+that it will work, or change some of the gears to compensate. https://www.digikey.co.uk/en/products/detail/adafruit-industries-llc/918/5629415
