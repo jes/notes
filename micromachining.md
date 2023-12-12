@@ -52,6 +52,20 @@ I broke the first tool, possibly because I forgot to check the runout. I was usi
 I forgot that I should maybe not. I reduced the feed rate to **40 mm/min** for the second attempt, and it worked
 without drama. I wish I had measured the runout though.
 
+## 1mm 2-flute end mill in steel
+
+* Width of cut: **1 mm** (full slotting)
+* Depth of cut: **0.1 mm**
+* Horizontal feed: **100 mm/min**
+* Vertical feed: **50 mm/min**
+* Spindle speed: **24000 rpm**
+
+On [2023-12-12](20231212.md) I made this module 0.2 gear cutter:
+
+https://img.incoherency.co.uk/5107
+
+(But with slightly wrong geometry, it would need an end mill slightly smaller ideally).
+
 ## 2mm 1-flute end mill in aluminium/brass
 
 * Width of cut: **2 mm** (full slotting)
