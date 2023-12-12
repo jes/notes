@@ -20,6 +20,8 @@ List of important unsolved problems:
 * [soptera, about John Harrison](https://soptera.wordpress.com/)
 * [Micromechanics and Watchmaking](https://zzmiller.blogspot.com/) - someone attending watchmaking school
 * [Watchmaking School from a Student's Perspective](https://www.bobinchak.com/) - more watchmaking school, some great posts on here
+* [Designing Cycloidal Gears](https://www.csparks.com/watchmaking/CycloidalGears/index.jxl)
+* [Cycloidal Gear Calculator](https://www.csparks.com/watchmaking/CycloidalGears/CycloidCalculator.html)
 
 ---
 
