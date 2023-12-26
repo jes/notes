@@ -3,10 +3,8 @@
 List of important unsolved problems:
 
 * how to cut pinions on shafts without crashing the cutter into the collet nut
-* how to cut internal teeth on the barrel (**CNC shaping?**)
 * how much the mainspring torque will drop as it unwinds (**intuitively, if the mainspring has N turns then the torque should drop by 1/N after the first turn?**)
 * whether we want stopwork (**I think yes**)
-* how to handle bearings for the barrel (**use the pivots idea in [20231018](20231018.md)**)
 * how to make square shoulders on shafts (**use the parting blade??? or use `mk-pivot`, see [4thaxis](4thaxis.md)**)
 * how to attach a hairspring (**see the collet idea in [20230921](20230921.md)?**)
 
