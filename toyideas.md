@@ -17,3 +17,12 @@ in the room and move it somewhere else.
 It's a bunch of clock parts (shafts, gears, pendulum, hands, etc.) but the shafts are all on suction cups
 so that they can be stuck to a window, and you lay out your mechanism by sticking shafts to the window
 and putting all the parts on the shafts.
+
+## Oscillating roundabout
+
+A swing is a ride-on pendulum. An oscillating roundabout is a ride-on *balance wheel*.
+
+The main difference is that the period of the balance wheel depends on the moment of inertia, which means it will
+be faster for smaller kids. Also that rogue kids can put a lot more energy into a balance wheel than they can into
+a pendulum, because with a swing they are limited by how high they can reach, but with an oscillating roundabout
+they are only limited by how much torque they can apply. So it may be a dangerous toy.
