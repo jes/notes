@@ -27,18 +27,21 @@ My techniques for making watch parts:
 
 ## Making gear cutters
 
-https://img.incoherency.co.uk/4598
+https://img.incoherency.co.uk/5134
 
-**TODO: try this with silver steel instead of HSS.**
+[2023-12-19](20231219.md): I made a nice module 0.2 gear cutter.
 
-Mount a tool blank in the vice in the milling machine, at a slight angle to provide some clearance (what angle? should I be more thorough about this?).
+Cut off a length of 3mm silver steel rod.
 
-Model the profile you want to cut in FreeCAD, generate the path, and then edit the path to remove the moves you don't need.
+Put it in the vice on the CNC router table, pointing horizontal.
 
-Run the job.
+Use a 1mm end mill to put a flat to 1.5mm depth.
 
-I have done this already with a HSS blank and it worked OK but the machine was not happy cutting HSS. I think next time I should
-use silver steel and harden it after cutting.
+Now tilt the rod so that it points up slightly, and use the
+1mm end mill to machine a negative of a tooth profile on to the
+rod.
+
+Harden and temper.
 
 ## Making gears
 
@@ -47,23 +50,29 @@ https://img.incoherency.co.uk/4615
 [2023-09-08](20230908.md): I made a brass test gear, 33 teeth, module 0.4, 0.75mm thick, 1mm bore.
 [2023-11-08](20231108.md): I had a lot of trouble with the gear flicking off
 the superglue arbor, suggest cutting teeth before parting off.
+[2023-12-20](20231220.md): made some nice-ish module 0.2 gears.
 
-Put the brass rod stock in the collet chuck.
+(See below for how to cross out the disc before cutting the teeth).
 
-Face off the end. Turn to diameter.
+Part off a disc of brass rod.
 
-Bore the hole in the centre.
+Glue it to the superglue arbor.
 
-Transfer the collet chuck to the milling machine.
+Turn to diameter. Face to thickness.
 
-Put the gear cutter in the milling machine.
+Transfer to milling machine.
 
-See [4thaxis](4thaxis.md) for how to use `mk-gear` to cut the gear teeth, correcting for concentricity error.
+Ensure that the 4th axis is running true.
 
-Put the collet chuck back in the lathe and part off.
+Ensure that the cutter is on centre height (use the mini
+surface gauge).
 
-Cut some grooves in the end of the stock, glue the gear to the grooves,
-and face to length.
+See [4thaxis](4thaxis.md) for how to use `mk-gear` to cut gear
+teeth, but make sure there is no concentricity error for the time
+being, because the Z backlash is too high.
+
+Heat the superglue to remove the gear from the arbor, use acetone
+to dissolve the residue.
 
 ## Heat treatment
 
@@ -78,7 +87,7 @@ fire brick thing, and prepare a small pot of water and some tweezers. Heat the p
 hold that temperature for a few seconds, and then use the tweezers to plunge it into the water.
 
 Now take it out, sand off the scale, and switch to the smaller blowtorch. Gently apply heat intermittently
-until it turns a nice blue colour, and then stop and let it cool down (is it OK to cool it down with water?).
+until it turns a nice blue colour, and then stop and plunge it back into the water.
 
 ## Making shafts on the lathe
 
@@ -86,9 +95,7 @@ until it turns a nice blue colour, and then stop and let it cool down (is it OK 
 
 [2023-10-07](20231007.md): I tried to make a shaft for an escape wheel.
 
-(If starting with blued pivot steel, obviously skip the heat treatment).
-
-Put the blued rod in the collet chuck.
+Put blued steel rod in the collet chuck.
 
 Use a right-hand turning tool, with a DCGT (ground) insert, with 0.2mm nose radius if possible.
 
@@ -176,6 +183,16 @@ If the pivot bent in this process, put the shaft (with gear) back in the lathe, 
 soft drift. This is less likely to happen if using hardened shafts and proper staking tools.
 
 If the gear is loose on the shaft, use Loctite 603 to secure it.
+
+## Press-fitting with the lathe
+
+**TODO: I haven't tried the following process.**
+
+Put the shaft in the chuck.
+
+Put a pusher piece with central hole in the tailstock.
+
+Use the tailstock to push the part onto the shaft.
 
 ## Making a die block
 
