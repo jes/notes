@@ -3,10 +3,8 @@
 List of important unsolved problems:
 
 * how to cut pinions on shafts without crashing the cutter into the collet nut
-* how much the mainspring torque will drop as it unwinds (**intuitively, if the mainspring has N turns then the torque should drop by 1/N after the first turn?**)
-* whether we want stopwork (**I think yes**)
-* how to make square shoulders on shafts (**use the parting blade??? or use `mk-pivot`, see [4thaxis](4thaxis.md)**)
-* how to attach a hairspring (**see the collet idea in [20230921](20230921.md)?**)
+* how to make stopwork
+* how to implement adjustment for rate
 
 ---
 
@@ -24,6 +22,28 @@ List of important unsolved problems:
 ---
 
 My techniques for making watch parts:
+
+## Turning square shoulders
+
+https://img.incoherency.co.uk/5259
+
+[2024-01-07](20240107.md): I made a balance shaft.
+
+Get a piece of sharp-ish high-speed steel, dress it with the slitting disc in the angle grinder, finish
+the corners with it.
+
+## Attaching hairsprings
+
+https://img.incoherency.co.uk/5095
+
+If using the hairsprings from the "Anchor" assortment, they are mostly riveted to split collets that get pushed
+onto the shafts.
+
+If making them myself, probably make a similar split collet, but with a cross-drilled hole for the spring to go in,
+and fit the spring into the hole with a tapered pin.
+
+For attaching to the frame, fitting in a hole using a tapered pin seems adequate. Cut the pin to a more suitable length
+than the example in the pic.
 
 ## Making gear cutters
 
