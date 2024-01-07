@@ -48,7 +48,9 @@ Harden and temper.
 https://img.incoherency.co.uk/4615
 
 [2023-09-08](20230908.md): I made a brass test gear, 33 teeth, module 0.4, 0.75mm thick, 1mm bore.
+
 [2023-11-08](20231108.md): I had a lot of trouble with the gear flicking off
+
 the superglue arbor, suggest cutting teeth before parting off.
 [2023-12-20](20231220.md): made some nice-ish module 0.2 gears.
 
