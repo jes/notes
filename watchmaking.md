@@ -43,6 +43,25 @@ rod.
 
 Harden and temper.
 
+## Crossing out
+
+https://img.incoherency.co.uk/4625
+
+[2023-09-14](20230914.md): I made an escape wheel using the 1mm end mill.
+
+[2023-10-05](20231005.md): I tried to use the superglue method to cut an escape wheel, and it got flicked off
+the glue. It may be better to do the crossing out straight on the end of the bar, before parting off the disc.
+
+Put the parent rod in the collet chuck in the lathe and turn a concentric outer surface, over-size, and maybe drill the shaft
+hole.
+
+Transfer the collet chuck to the CNC router, centre on the outer diameter, cut the crossing-out. Drill the shaft hole on the
+CNC router if not done on the lathe.
+
+Back to the lathe, part off the crossed-out disc, ready to glue on the superglue arbor for cutting teeth.
+
+See [micromachining](micromachining.md) for more.
+
 ## Making gears
 
 https://img.incoherency.co.uk/4615
@@ -54,7 +73,7 @@ the superglue arbor, suggest cutting teeth before parting off.
 
 [2023-12-20](20231220.md): made some nice-ish module 0.2 gears.
 
-(See below for how to cross out the disc before cutting the teeth).
+(See above for how to cross out the disc before cutting the teeth).
 
 Part off a disc of brass rod.
 
@@ -143,25 +162,6 @@ Measure the runout with a dial indicator.
 
 Input the dial indicator readings into `$high_reading`, `$low_reading`, and `$high_reading_angle` in `mk-pivot`.
 Run `mk-pivot` to get G-code. Run the G-code.
-
-## Crossing out
-
-https://img.incoherency.co.uk/4625
-
-[2023-09-14](20230914.md): I made an escape wheel using the 1mm end mill.
-
-[2023-10-05](20231005.md): I tried to use the superglue method to cut an escape wheel, and it got flicked off
-the glue. It may be better to do the crossing out straight on the end of the bar, before parting off the disc.
-
-Put the parent rod in the collet chuck in the lathe and turn a concentric outer surface, over-size, and maybe drill the shaft
-hole.
-
-Transfer the collet chuck to the CNC router, centre on the outer diameter, cut the crossing-out. Drill the shaft hole on the
-CNC router if not done on the lathe.
-
-Back to the lathe, part off the crossed-out disc, ready to glue on the superglue arbor for cutting teeth.
-
-See [micromachining](micromachining.md) for more.
 
 ## Fitting gears to shafts
 
