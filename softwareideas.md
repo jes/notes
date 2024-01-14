@@ -78,6 +78,34 @@ offset. My custom G-code sender should have a way to say "move Z down by 0.1mm" 
 do any mental arithmetic to work out "OK, it's at Z=5, so I need to touch off at Z=5.1 to get it to be 0.1mm
 lower".
 
+How about this: it is basically vim but for CNC. So it's entirely keyboard-driven (but maybe with point-and-click
+available, and definitely with some sort of discoverability).
+
+If you type a "G" or and "M" it puts you into the MDI to let you type a command. Also the MDI only shows you
+things you actually input, unless you switch it to show the raw serial data, and even in that case your own
+inputs should be highlighted somehow.
+
+To change work offset you press the letter of the axis you want to change and then type the new number and
+hit enter. So for example, type "X0" to zero the X coordinate. This accepts arithmetic, with the existing
+value as an implied first value if none is given, so if you type "X/2" or "X+0.1", it sets X to X/2 or X+0.1
+as you'd expect. Perhaps if you're typing an expression, it shows you both what you're typing and what the
+evaluation is. And of course we want the existing value to remain visible while you're typing.
+
+I would probably want the UI at each step to say what keys can be pressed and what they'll do. And maybe
+rarely-used commands would open up a submenu, like a mainframe TUI.
+
+I would want physical encoders to control feed override and jog speed but can tolerate keyboard jogging,
+as long as it's easy to change feed rate, continuous/incremental, and the incremental step size.
+
+The UI can be very basic. I could probably even tolerate the "3d view" being just a 2d view. I can't tolerate
+fuck-ups where the Grbl state is not accurately reflected in the UI, that part needs to be rock solid. And
+I can't tolerate it being slow or frustrating. I need it to always be very clear exactly what it's going to do,
+so when I go to run a program it should show me what lines it is about to send. It should show me distance-to-go
+on current line.
+
+I might want "canned cycles" for things like making circles and rectangles, and maybe tiling them at a
+given step size. In fact maybe I'd want it to be able to tile an entire G-code program.
+
 ## Debughackers
 
 It's like Protohackers except every problem is a program and a bug report, and you have to fix the bug
