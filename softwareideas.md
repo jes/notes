@@ -106,6 +106,8 @@ on current line.
 I might want "canned cycles" for things like making circles and rectangles, and maybe tiling them at a
 given step size. In fact maybe I'd want it to be able to tile an entire G-code program.
 
+High-contrast display so that it can easily be seen on the laptop with a dusty screen.
+
 ## Debughackers
 
 It's like Protohackers except every problem is a program and a bug report, and you have to fix the bug
