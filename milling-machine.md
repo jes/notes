@@ -1,5 +1,11 @@
 # CNC milling machine
 
+Backlash measured on [2024-02-07](20240207.md) as follows:
+
+ * X axis: **0.03mm**
+ * Y axis: **0.14mm**
+ * Z axis: **0.40mm**
+
 Backlash measured on [2023-10-13](20231013.md) as follows:
 
 * X axis: **0.11mm**
@@ -16,13 +22,12 @@ of 0.65mm, ran the code again, and then it acted like it was over-compensating, 
 again and got 0.35mm. I think the problem is that the tighter the gibs get, the less ability
 gravity has to do backlash compensation for me. You can imagine that if they were totally loose,
 you wouldn't need any backlash compensation because gravity would always hold it against the same side
-of the ballnut.
+of the ballnut (until there is load on it).
 
 ## Wishlist
 
  * coolant pump switch on the cabinet
  * air blast
- * fix the power switch
  * knob on the cabinet for feed rate override (maybe see http://linuxcnc.org/docs/html/man/man1/hal_input.1.html for how to do this via USB?)
  * jog pendant with knob for jog feed rate
  * fix the Z backlash
