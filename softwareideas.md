@@ -130,3 +130,21 @@ Twists:
 
 You give it the ratio (with tolerance?), the minimum/maximum number of gears, the minimum/maximum number of teeth per gear,
 and any numbers of teeth that are already fixed, and it searches to find solutions.
+
+## Terminal emulator extensions
+
+A way to write "extensions" for a terminal emulator like you do for a browser.
+
+A specific one I want is a way to take lines like:
+
+    path.go:111:	draw.Draw(composite, bounds, p.toolpathLayer, image.Point{}, draw.Over)
+
+And allow me to click on "path.go:111" and the extension will then type in "vim +111 path.go" and open me up in vim
+at line 111, to save me the hassle of copying and pasting path names and memorising line numbers all day long.
+
+I feel like I used to have something like this in emacs, but only in the built-in terminal emulator. I want to invert that,
+in my workflow the editor is inside the terminal emulator, not the other way around.
+
+Another one would be "stash this screen", so I could stash the contents of the terminal somewhere (a different tab?) and
+recall them at will by switching to the tab, all while I continue working in the first tab. So like I can get a page of
+results from a grep or something, and start working on each line without the results scrolling up out of view as I work.
