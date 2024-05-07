@@ -148,3 +148,26 @@ in my workflow the editor is inside the terminal emulator, not the other way aro
 Another one would be "stash this screen", so I could stash the contents of the terminal somewhere (a different tab?) and
 recall them at will by switching to the tab, all while I continue working in the first tab. So like I can get a page of
 results from a grep or something, and start working on each line without the results scrolling up out of view as I work.
+
+## Flexwing simulator
+
+See notes in [2024-05-07](20240507.md).
+
+Side view. "Side-scrolling". Want an input for throttle and an input for wing angle of attack relative to trike.
+
+Maybe we could include a "ground" to take off from and land on, that would be fun.
+
+Would we model the wing as "Newtonian" only? Or do we need to look up some Bernoulli calculations? It might matter because
+at 0 angle of attack for example Newton says you have no lift at all but Bernoulli says your lift depends on your airspeed.
+Does that matter? Not sure.
+
+What I really want to see is exactly what happens when you change the throttle or the pitch. I want to see plots of
+airspeed, vertical speed, angle of attack, and components of both the thrust vector and the lift vector.
+
+A good test would be to see if you can simulate a "tuck and tumble". Is there a paper on this? Might be worth looking up.
+
+ * https://aviation.stackexchange.com/questions/9252/what-makes-a-weight-controlled-microlight-tumble-and-can-it-recover
+ * https://bura.brunel.ac.uk/bitstream/2438/705/1/Fulltext.pdf
+
+Also we could experiment with putting the engine on the wing to see what that does to the handling. (I'm expecting it
+to be bad, else they would be made that way, but I want to see for myself).
