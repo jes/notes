@@ -171,3 +171,10 @@ A good test would be to see if you can simulate a "tuck and tumble". Is there a 
 
 Also we could experiment with putting the engine on the wing to see what that does to the handling. (I'm expecting it
 to be bad, else they would be made that way, but I want to see for myself).
+
+## ChatGPT shell
+
+See notes in [2024-06-17](20240617.md).
+
+Would be like the experience in https://incoherency.co.uk/blog/stories/chatgpt-linux.html but with a presentation
+much closer to a classical Unix shell, and running on your own computer instead of OpenAI's sandboxed environment.
