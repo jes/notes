@@ -40,7 +40,7 @@
 ## Bedroom
 
 * Walls: Lick paint, white 06
-* Pink: Craig & Rose 1929 Eggshell Paint Pink Beige
+* Pink: Craig & Rose 1829 Eggshell Paint Pink Beige
 
 ## Spare bedroom
 
