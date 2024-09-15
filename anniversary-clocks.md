@@ -21,9 +21,9 @@ towards the centre. This effect is unavoidable. The only way the fork will not "
 is complete is if the impulse is not adding any energy.
 
 If the fork snaps back far enough, then it will pull the anchor back to a position such that the next tooth,
-due to land on the locking face of its adjacent pallet, will actually land directly on the impulse face instead.
+due to land on the locking face of its adjacent pallet, will instead land directly on the impulse face.
 It will then immediately push the anchor back the other way, and the clock will rapidly run down. This is
-called *flutter*
+called *flutter*.
 
 At its core, *flutter* is caused by the suspension spring "snapping back" too far once the impulse is removed.
 
@@ -48,9 +48,9 @@ The effect can be reduced by:
 
 And then the next thing is that there is some minimum amplitude that the clock needs to achieve in order
 for escapement to occur. You can imagine that clamping the fork near to the suspension
-spring means that it moves in proportion to how the balance wheel moves (if the fork is 1/10 of the way down,
-then it rotates 1/10 as far as the balance wheel does), and obviously if it doesn't move far enough then the
-escape wheel never escapes.
+spring means that, absent any force from the anchor, it moves in proportion to the balance wheel (if the fork is 1/10 of the way down,
+then it rotates 1/10 as far as the balance wheel does), and obviously if it doesn't move far enough then it doesn't
+push the anchor far enough and therefore the escape wheel never escapes.
 
 Increasing the weight on the balance wheel is desirable
 because of the associated increase in moment of inertia, but the downside is that a balance wheel with a given
