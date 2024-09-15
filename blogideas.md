@@ -19,6 +19,8 @@ how much F1 of the new space have you used?
 
 F1 = 1 - (1 - F0)/G
 
+https://img.incoherency.co.uk/5576
+
 ## Utility & Morality
 
 * exchange rate between morality points and utility points (e.g. how much would I have to pay you to steal from an old lady if noone will ever find out?)
