@@ -5,6 +5,7 @@
  * http://www.thehorolovarcompany.com/
  * https://www.clockworks.com/clock-repair/clock-repair-help-1.html
  * https://www.youtube.com/watch?v=-EsKQANaKY0
+ * https://web.archive.org/web/20080806053720/http://www.clockscanada.com/
 
 ## Principles
 
