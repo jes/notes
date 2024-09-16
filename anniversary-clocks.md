@@ -6,6 +6,7 @@
  * https://www.clockworks.com/clock-repair/clock-repair-help-1.html
  * https://www.youtube.com/watch?v=-EsKQANaKY0
  * https://web.archive.org/web/20080806053720/http://www.clockscanada.com/
+ * https://incoherency.co.uk/interest/US1973-method-of-constructing-clocks-aaron-crane.pdf (and see [2024-09-16](20240916.md)) 
 
 ## Principles
 
