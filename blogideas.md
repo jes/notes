@@ -79,3 +79,19 @@ in more than one place as well...). Trying to divine the actual behaviour of `tr
 In option 2 you know it truncates at 15 characters, no exceptions.
 
 "No exceptions, no exceptions".
+
+## Apartheid web
+
+About how CAPTCHAs, anti-bot tactics, etc. are like apartheid for the web.
+
+Also about how one day the AI will use these things against us ("anti-human tactics").
+
+## Context
+
+About how you take a different approach to programming depending on the surrounding "context". (What is a better word here?).
+
+Is there a customer? What is the worst case if there are bugs? Is this just a one-off task to process some data? Will you be supervising it while it runs? Will you be able to ship bugfixes after it's deployed?
+
+Lots of different approaches to quality and reliability.
+
+Beginners are just happy if they can get the program to work (and rightly so!). And then "junior devs" (what's a better word here?) focus too much on "quality" at inappropriate times. "Senior devs" know when to spend time on quality, and when velocity is more important. When to "do the most immediately expedient thing".
