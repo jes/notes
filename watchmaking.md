@@ -10,6 +10,8 @@ List of important unsolved problems:
 
 ## Resources
 
+* [Making The Escapement, Remontoir, And Timing For Derek Pratt’s Reconstruction Of John Harrison‘s H4, The World’s First Precision Marine Chronometer](https://quillandpad.com/2017/01/11/making-escapement-remontoir-timing-derek-pratts-reconstruction-john-harrisons-h4-worlds-first-precision-marine-chronometer-part-3-3/) - good info about hardening the balance spring in a special plate
+* [Clickspring - Making Carbon Steel Hairsprings for Watches, Clocks and Other Small Mechanism](https://www.youtube.com/watch?v=in6yWrlighI)
 * [Watchmaking tools](https://watchmaking.weebly.com/watchmakers-tools.html)
 * [Adventures in Watchmaking](https://watchmaking.weebly.com/) - looks like he is building a pocket watch
 * [Richard Watkins Horological Books](http://watkinsr.id.au/)
