@@ -45,6 +45,34 @@ blockquote {
     max-width: 200px;
     max-height: 200px;
 }
+.nav-section {
+    display: inline-block;
+    position: relative;
+    margin: 0 4px;
+}
+
+.nav-section:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid #888;
+    padding: 4px;
+    min-width: 250px;
+    z-index: 1;
+}
+
+.dropdown a {
+    display: block;
+    padding: 2px 4px;
+}
+
+.dropdown a:hover {
+    background: #eee;
+}
 </style>
 <title>__TITLE__</title>
 </head>

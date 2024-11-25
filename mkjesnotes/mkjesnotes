@@ -23,7 +23,20 @@ my $STORYFOOTER = slurp("$templatedir/storyfooter");
 my $PREVIEW = slurp("$templatedir/preview");
 my $GALLERYITEM = slurp("$templatedir/galleryitem");
 
+my ($navspec, $included_pages) = parse_navspec("$indir/Navspec");
+
+# Build hierarchical navigation
 my $NAVHTML = navhtml(Index => 'index.html') . navhtml('Gallery' => 'gallery.html') . ' . ';
+
+# Add hierarchical sections
+for my $section (sort keys %$navspec) {
+    $NAVHTML .= "<div class=\"nav-section\"><u>$section &#9660;</u>";
+    $NAVHTML .= "<div class=\"dropdown\">";
+    for my $page (@{$navspec->{$section}}) {
+        $NAVHTML .= navhtml($page, "$page.html", 1);
+    }
+    $NAVHTML .= "</div></div> ";
+}
 
 my @stories;
 for my $file (sort glob("$indir/*.md")) {
@@ -55,7 +68,7 @@ for my $file (sort glob("$indir/*.md")) {
         $story->{daily} = 1;
     }
 
-    $NAVHTML .= navhtml($story->{title}, "$story->{name}.html") if !$story->{daily};
+    $NAVHTML .= navhtml($story->{title}, "$story->{name}.html") if !$story->{daily} && !$included_pages->{$story->{name}};
 
     push @stories, $story;
 }
@@ -224,7 +237,33 @@ sub lastmodified {
 }
 
 sub navhtml {
-    my ($title, $file) = @_;
+    my ($title, $file, $in_dropdown) = @_;
+    
+    return "<a class=\"nav\" href=\"$file\">$title</a>" . ($in_dropdown ? "" : " ");
+}
 
-    return "<a class=\"nav\" href=\"$file\">$title</a> ";
+sub parse_navspec {
+    my ($file) = @_;
+    my %nav;
+    my %included;  # Track which pages are included in the hierarchy
+    
+    open(my $fh, '<', $file) or return ({}, {});
+    while (my $line = <$fh>) {
+        chomp $line;
+        next unless $line =~ /\S/;  # Skip empty lines
+        
+        if ($line =~ /^(\w+):\s*(.+)$/) {
+            my ($section, $pages) = ($1, $2);
+            my @pages = split /\s+/, $pages;
+            $nav{$section} = \@pages;
+            
+            # Mark these pages as included in the hierarchy
+            for my $page (@pages) {
+                $included{$page} = 1;
+            }
+        }
+    }
+    close $fh;
+    
+    return (\%nav, \%included);
 }
