@@ -25,20 +25,11 @@ my $GALLERYITEM = slurp("$templatedir/galleryitem");
 
 my ($navspec, $included_pages) = parse_navspec("$indir/Navspec");
 
-# Build hierarchical navigation
 my $NAVHTML = navhtml(Index => 'index.html') . navhtml('Gallery' => 'gallery.html') . ' . ';
-
-# Add hierarchical sections
-for my $section (sort keys %$navspec) {
-    $NAVHTML .= "<div class=\"nav-section\"><u>$section &#9660;</u>";
-    $NAVHTML .= "<div class=\"dropdown\">";
-    for my $page (@{$navspec->{$section}}) {
-        $NAVHTML .= navhtml($page, "$page.html", 1);
-    }
-    $NAVHTML .= "</div></div> ";
-}
+my $NAVHTMLEND = '';
 
 my @stories;
+my %title_map;
 for my $file (sort glob("$indir/*.md")) {
     (my $name = $file) =~ s/^\Q$indir\E\///;
     $name =~ s/\.md$//;
@@ -61,6 +52,7 @@ for my $file (sort glob("$indir/*.md")) {
     } else {
         $story->{title} = $name;
     }
+    $title_map{$name} = $story->{title};
 
     if ($name =~ /^(20\d\d)([01]\d)([0123]\d)$/) {
         my ($year, $month, $day) = ($1, $2, $3);
@@ -68,10 +60,21 @@ for my $file (sort glob("$indir/*.md")) {
         $story->{daily} = 1;
     }
 
-    $NAVHTML .= navhtml($story->{title}, "$story->{name}.html") if !$story->{daily} && !$included_pages->{$story->{name}};
+    $NAVHTMLEND .= navhtml($story->{title}, "$story->{name}.html") if !$story->{daily} && !$included_pages->{$story->{name}};
 
     push @stories, $story;
 }
+
+# Add hierarchical sections
+for my $section (sort keys %$navspec) {
+    $NAVHTML .= "<div class=\"nav-section\"><u>$section &#9660;</u>";
+    $NAVHTML .= "<div class=\"dropdown\">";
+    for my $page (@{$navspec->{$section}}) {
+        $NAVHTML .= navhtml($title_map{$page}//$page, "$page.html", 1);
+    }
+    $NAVHTML .= "</div></div> ";
+}
+$NAVHTML .= $NAVHTMLEND;
 
 for my $i (0..$#stories) {
     my $story = $stories[$i];
