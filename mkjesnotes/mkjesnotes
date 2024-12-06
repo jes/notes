@@ -185,7 +185,7 @@ sub md2html {
     # fix un-hyperlinked hyperlinks
     $md =~ s/(?<!\()(https?:\/\/\S+)/[$1]($1)/g;
 
-    my $html = markdown($md);
+    my $html = markdown($md, {trust_list_start_value => 1});
 
     # fix relative md hyperlinks
     $html =~ s/href="([^\/"]+)\.md"/href="$1.html"/g;
