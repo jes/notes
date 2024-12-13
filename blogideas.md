@@ -95,3 +95,51 @@ Is there a customer? What is the worst case if there are bugs? Is this just a on
 Lots of different approaches to quality and reliability.
 
 Beginners are just happy if they can get the program to work (and rightly so!). And then "junior devs" (what's a better word here?) focus too much on "quality" at inappropriate times. "Senior devs" know when to spend time on quality, and when velocity is more important. When to "do the most immediately expedient thing".
+
+## The 3 efforts
+
+Effort before: "That sounds like a drag, I don't want to do it."
+
+Effort during: "Man, this is hard work."
+
+Effort after: "I need a lie down."
+
+## Soft morality, hard morality
+
+Some moral principles are universal (hard morality), and some
+vary between different schools of thought (soft morality).
+
+## Subconscious as homunculus
+
+Modelling the subconscious mind as its own conscious mind that is able to observe
+everything you observe, but its only output is to pop up thoughts into the conscious mind.
+
+Intrusive thoughts about my subconscious working against me by popping up intrusive thoughts.
+
+https://www.lesswrong.com/posts/xtuk9wkuSP6H7CcE2/ayn-rand-s-model-of-living-money-and-an-upside-of-burnout
+
+Parallels between this "subconscious" and god.
+
+Idea that if you don't work in the subsconsious's best interests, it will take matters into
+its own hands. Important to cultivate a good relationship with the subconscious.
+
+If you find some unanchored thought popping up telling you that you want something,
+don't just bat it away. Bargain with it. "OK, we'll go and make another cup of tea soon,
+let's just focus on the task for now". And then *actually do* go and get the cup of tea soon.
+Your subsconscious needs to learn that it can trust you, and you need to learn that you can
+trust it.
+
+The Abramelin ritual for summoning your Holy Guardian Angel involves depriving yourself
+of food, sex, and social interaction for up to 18 months, all while praying for a Holy
+Guardian Angel. At the end your subconscious presents itself to you as
+a hallucinated Holy Guardian Angel because of the extended abuse you've been giving it.
+
+https://slatestarcodex.com/2020/06/01/book-review-origin-of-consciousness-in-the-breakdown-of-the-bicameral-mind/
+
+Before the bronze age, the subconscious was basically running the entire show. The conscious
+mind was too stupid to contribute. When the conscious mind was getting in the way, the
+subconscious presented itself as the gods and told the conscious mind what to do.
+But something changed at some point, the conscious mind became more powerful. Either the
+conscious mind became powerful enough not to fall for simple hallucinations, or the
+conscious mind started having a better relationship with the subconscious such that the
+subconscious no longer felt the need to play tricks.
