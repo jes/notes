@@ -156,3 +156,5 @@ The 50th hour barely moves either the current state or the work remaining. That'
 you run out of steam in the middle.
 
 C.f. https://incoherency.co.uk/blog/stories/free-space.html
+
+Does this also explain the mid-life crisis?
