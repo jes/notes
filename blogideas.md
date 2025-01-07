@@ -143,3 +143,16 @@ But something changed at some point, the conscious mind became more powerful. Ei
 conscious mind became powerful enough not to fall for simple hallucinations, or the
 conscious mind started having a better relationship with the subconscious such that the
 subconscious no longer felt the need to play tricks.
+
+## The 50th hour
+
+Imagine a project that will take 100 hours.
+
+The 1st hour of the project creates 100% of the work that has been done.
+
+The 100th hour completes 100% of the work that remains.
+
+The 50th hour barely moves either the current state or the work remaining. That's why
+you run out of steam in the middle.
+
+C.f. https://incoherency.co.uk/blog/stories/free-space.html
