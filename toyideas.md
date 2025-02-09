@@ -6,6 +6,10 @@ It's like the digger they have at White Row Farm (?), it goes in a sand pit and 
 can use to operate the bucket, it has a swivelling base that you can paddle around with your feet. Lets you
 scoop up sand, move it, drop it, great fun.
 
+Update: there is an even better version at the Haynes Motor Museum in the kids' play area.
+It is hydraulically powered like a real one, costs £1.50 a go,
+but you get 45 minutes which is more than you'll want to spend. Well worth it.
+
 ## Crane
 
 You'd have a big arm on the ceiling that is controlled from a support in one corner of the room, with controls
