@@ -6,5 +6,6 @@ Issues with Snaps on Ubuntu 24.04 LTS:
  * Inkscape gcodetools can't write into my home directory, the only way I managed to get gcode out of it is because I realised it *can* write to `/home/jes/snap/inkscape/common` - but then I can't load the gcode into FreeCAD because FreeCAD can't *read* `/home/jes/snap/inkscape/common` - so I have to manually copy the file somewhere else first
  * "Recent files" in file dialogs seems to be inconsistent, like some Snaps have a separate store of recent files that is not connected to my main Gnome one
  * FreeCAD can't load fonts from `/usr/share/fonts` for use in Draft ShapeString, instead copy them into home directory
+ * Docker can't see `/tmp/.X11-unix`
 
 LPT: `$ snap refresh --hold`
