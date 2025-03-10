@@ -14,3 +14,4 @@
  * [Inigo Quilez](https://iquilezles.org/articles/)
  * [2d polycurve SDF](https://www.shadertoy.com/view/3t33WH)
  * https://fornjot.app/blog/why-fornjot-is-using-boundary-representation/
+ * https://www.redblobgames.com/x/2403-distance-field-fonts/
