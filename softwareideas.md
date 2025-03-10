@@ -33,14 +33,18 @@ and then lets me measure lengths and angles, and, *importantly*, draws the measu
 image in a way that makes it convenient for me to show the measurements. For example with red lines
 and red numbers like in the examples above.
 
-## Moodboard
+## Moodboard [done]
+
+Done - https://github.com/jes/moodboard
 
 Something that lets me stick in images that I want to keep in my mind, crop them, scale them, and lay them
 out in a sensible way. I don't want to have to manually do the layout, but I want to be able to manually
 tweak the layout. I think Pinterest sort of does this, but I'm not interested in proprietary software or
 data silos.
 
-## G-code sender
+## G-code sender [done]
+
+Done - https://github.com/jes/pugsender
 
 The G-code sender should have normal overrides like feed rate and spindle speed, but it should also
 preprocess your G-code and offer a "depth of cut" override. Also preprocess your G-code to detect
@@ -128,6 +132,8 @@ Twists:
 
 ## Gear train calculator
 
+Done - https://github.com/jes/clock-gear-train-calculator
+
 You give it the ratio (with tolerance?), the minimum/maximum number of gears, the minimum/maximum number of teeth per gear,
 and any numbers of teeth that are already fixed, and it searches to find solutions.
 
@@ -149,7 +155,9 @@ Another one would be "stash this screen", so I could stash the contents of the t
 recall them at will by switching to the tab, all while I continue working in the first tab. So like I can get a page of
 results from a grep or something, and start working on each line without the results scrolling up out of view as I work.
 
-## Flexwing simulator
+## Flexwing simulator [done]
+
+Done - https://github.com/jes/flexwing
 
 See notes in [2024-05-07](20240507.md).
 
