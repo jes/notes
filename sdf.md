@@ -37,3 +37,5 @@ These actually look really good, they just look like art tools rather than CAD:
  * https://github.com/mkeeter/fidget/tree/wgpu-bytecode
  * https://www.mattkeeter.com/research/mpr/keeter_mpr20.pdf
  * https://lygia.xyz/sdf
+ * [Matt Keeter talk](https://www.youtube.com/watch?v=UxGxsGnbyJ4)
+ * https://www.cs.cmu.edu/~kmcrane/
