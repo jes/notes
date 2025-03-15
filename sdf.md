@@ -39,3 +39,5 @@ These actually look really good, they just look like art tools rather than CAD:
  * https://lygia.xyz/sdf
  * [Matt Keeter talk](https://www.youtube.com/watch?v=UxGxsGnbyJ4)
  * https://www.cs.cmu.edu/~kmcrane/
+ * [Interval arithmetic in GLSL](https://www.shadertoy.com/view/lssSWH)
+ * https://dercuano.github.io/notes/sdf-notes.html
