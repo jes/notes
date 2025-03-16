@@ -41,3 +41,4 @@ These actually look really good, they just look like art tools rather than CAD:
  * https://www.cs.cmu.edu/~kmcrane/
  * [Interval arithmetic in GLSL](https://www.shadertoy.com/view/lssSWH)
  * https://dercuano.github.io/notes/sdf-notes.html
+ * https://t3kt.github.io/raytk/reference/operators/sdf/
