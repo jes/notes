@@ -4,7 +4,7 @@
 
 ### Mine
 
-The first SDF-based CAD program?
+The first SDF-based CAD program? (update: No.)
 
  * [Isoform](https://github.com/jes/isoform)
 
@@ -17,6 +17,7 @@ Driven by programming:
  * https://libfive.com/studio/
  * https://forgedthoughts.com/
  * https://www.mattkeeter.com/projects/fidget/
+ * https://bauble.studio/
 
 ## Blender-like
 
@@ -42,3 +43,5 @@ These actually look really good, they just look like art tools rather than CAD:
  * [Interval arithmetic in GLSL](https://www.shadertoy.com/view/lssSWH)
  * https://dercuano.github.io/notes/sdf-notes.html
  * https://t3kt.github.io/raytk/reference/operators/sdf/
+ * https://dercuano.github.io/notes/interval-raymarching.html
+ * https://ianthehenry.com/posts/bauble/building-bauble/
