@@ -45,3 +45,4 @@ These actually look really good, they just look like art tools rather than CAD:
  * https://t3kt.github.io/raytk/reference/operators/sdf/
  * https://dercuano.github.io/notes/interval-raymarching.html
  * https://ianthehenry.com/posts/bauble/building-bauble/
+ * https://cq.cx/dl/sketchflat-internals.pdf
