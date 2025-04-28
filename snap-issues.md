@@ -7,5 +7,6 @@ Issues with Snaps on Ubuntu 24.04 LTS:
  * "Recent files" in file dialogs seems to be inconsistent, like some Snaps have a separate store of recent files that is not connected to my main Gnome one
  * FreeCAD can't load fonts from `/usr/share/fonts` for use in Draft ShapeString, instead copy them into home directory
  * Docker can't see `/tmp/.X11-unix`
+ * File dialogs can be unbearably slow to open, the fix is to `sudo apt remove xdg-desktop-portal-gnome`, unsure why
 
 LPT: `$ snap refresh --hold`
