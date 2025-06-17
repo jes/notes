@@ -80,6 +80,8 @@ In option 2 you know it truncates at 15 characters, no exceptions.
 
 "No exceptions, no exceptions".
 
+Btw: https://htmx.org/essays/locality-of-behaviour/
+
 ## Apartheid web
 
 About how CAPTCHAs, anti-bot tactics, etc. are like apartheid for the web.
