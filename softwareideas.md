@@ -130,7 +130,7 @@ Twists:
 * multiple bugs
 * you don't have to submit a patch, you have to submit an *exploit*
 
-## Gear train calculator
+## Gear train calculator [done]
 
 Done - https://github.com/jes/clock-gear-train-calculator
 
