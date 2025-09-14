@@ -9,5 +9,6 @@ Issues with Snaps on Ubuntu 24.04 LTS:
  * Docker can't see `/tmp/.X11-unix`
  * File dialogs can be unbearably slow to open, the fix is to `sudo apt remove xdg-desktop-portal-gnome`, unsure why
  * Docker can't see `/tmp/kamal-clones`, see [2025-07-20](20250720.md)
+ * Gimp can't open things from `/media`, because "Permission denied"
 
 LPT: `$ snap refresh --hold`
