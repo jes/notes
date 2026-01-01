@@ -36,3 +36,6 @@ Rules for the "L7e" class MSVA test:
 ## Tricycle
 
 If you make it a three-wheeler then you lose the 15 kW power limit, and you can weigh up to 1000kg.
+
+This is the "L5e" class.
+
