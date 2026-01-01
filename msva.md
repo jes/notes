@@ -18,7 +18,7 @@ Rules for the "L7e" class MSVA test:
  * sidelights must have visible telltale
  * indicators must have visible or audible telltale
  * headlight must have dip and main beam mode
- * a single central headlight is acceptable
+ * a single central headlight is acceptable if the vehicle is less than 1.3m wide
  * need rear reflectors and rear number plate light
  * need at least 1 rear-view mirror of some kind, which must provide "adequate" field of view
  * speedometer reading mph, illuminated, can't under-read
