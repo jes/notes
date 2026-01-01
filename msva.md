@@ -2,6 +2,12 @@
 
 [MSVA Inspection Manual](https://assets.publishing.service.gov.uk/media/68be9d97de0987fe84e0dcf7/motorcycle-single-vehicle-approval-inspection-manual.pdf)
 
+## Geoff May road-legal cyclekart
+
+https://www.youtube.com/watch?v=A0V8sJ_ksYw
+
+https://cyclekartsgb.createaforum.com/build-journals/wolseley-hornet-cyclekart/
+
 ## Heavy quadricycle
 
 Rules for the "L7e" class MSVA test:
