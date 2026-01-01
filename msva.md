@@ -1,5 +1,7 @@
 # MSVA
 
+[MSVA Inspection Manual](https://assets.publishing.service.gov.uk/media/68be9d97de0987fe84e0dcf7/motorcycle-single-vehicle-approval-inspection-manual.pdf)
+
 ## Heavy quadricycle
 
 Rules for the "L7e" class MSVA test:
@@ -12,7 +14,8 @@ Rules for the "L7e" class MSVA test:
  * independent non-hydraulic handbrake
  * if a windscreen is fitted it must be safety glass and have washing/wiping provision
  * if doors are fitted they must latch securely etc.
- * need sidelights, headlights, tail lights, brake lights, indicators, which must all be E-marked
+ * need sidelights, headlights, tail lights, brake lights, indicators, hazards, which must all be E-marked
+ * sidelights must have visible telltale
  * indicators must have visible or audible telltale
  * headlight must have dip and main beam mode
  * a single central headlight is acceptable
