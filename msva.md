@@ -34,13 +34,14 @@ Rules for the "L7e" class MSVA test:
  * no protruding sharp edges etc., must have at least 2.5mm radius within "prescribed zones"
  * throttle must self-close
  * exhaust not to exceed 99dB(A)
- * no emissions check, but not to be visually smokey
+ * there is an emissions check
  * tyres must be marked road legal and appropriate speed/load rating
  * wooden chassis is OK
  * seatbelt only required if it has unladen weight over 250kg
  * no roll-over protection required
  * 2 seats is allowed
  * need a mechanical device to positively lock the steering or transmission, or an electronic immobiliser
+ * no requirement for mudguards on unbodied vehicles
 
 ## Tricycle
 
