@@ -7,7 +7,7 @@
 Rules for the "L7e" class MSVA test:
 
  * max. 15kW
- * max. 2m wide and 4m long, including mirrors and protrusions etc.
+ * max. 2m wide and 4m long
  * max. 450kg
  * rear axle can be solid, or with diff, or only one driven wheel, all are fine
  * must have brakes on all wheels
@@ -20,7 +20,9 @@ Rules for the "L7e" class MSVA test:
  * headlight must have dip and main beam mode
  * a single central headlight is acceptable if the vehicle is less than 1.3m wide
  * need rear reflectors and rear number plate light
- * need at least 1 rear-view mirror of some kind, which must provide "adequate" field of view
+ * need at least 1 nearside and 1 offside rear-view mirror, which must provide "adequate" field of view
+ * circular mirrors to have diameter between 94mm and 150mm
+ * non-circular mirrors to be able to contain a 78mm diameter circle and not to exceed 120mm by 200mm
  * speedometer reading mph, illuminated, can't under-read
  * horn
  * no protruding sharp edges etc., must have at least 2.5mm radius within "prescribed zones"
@@ -29,9 +31,10 @@ Rules for the "L7e" class MSVA test:
  * no emissions check, but not to be visually smokey
  * tyres must be marked road legal and appropriate speed/load rating
  * wooden chassis is OK
- * seatbelt only required if it has a roof, or if it has a "windscreen and doors forming an enclosure"
+ * seatbelt only required if it has unladen weight over 250kg
  * no roll-over protection required
  * 2 seats is allowed
+ * need a mechanical device to positively lock the steering or transmission, or an electronic immobiliser
 
 ## Tricycle
 
