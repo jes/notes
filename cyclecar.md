@@ -7,6 +7,7 @@ Engine:
 Wheels:
 
  * Royal Enfield Classic 350 front wheel is 19", spoked, and about £100 each
+ * 21" motocross front wheels are available, at a bit more than £100 a go, but harder to find matched sets
 
 Fuel tank:
 
