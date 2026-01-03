@@ -12,3 +12,19 @@ Wheels:
 Fuel tank:
 
  * You can get these plastic fuel oil tanks on eBay that you drill for your own tap
+
+Leaf springs:
+
+ * ???
+
+Lights:
+
+ * ??? Presumed readily available
+
+Brakes:
+
+ * ???
+
+Reversing:
+
+ * ??? Options are skip it, add a reversing gearbox, or use electric motor
