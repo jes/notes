@@ -4,6 +4,10 @@ Engine:
 
  * ZS190 is about £900 and 20hp
 
+Exhaust:
+
+ * ??? probably have to make your own
+
 Wheels:
 
  * Royal Enfield Classic 350 front wheel is 19", spoked, and about £100 each
@@ -15,7 +19,7 @@ Fuel tank:
 
 Leaf springs:
 
- * ???
+ * Cyclekart Workshop has leaf springs available for both half-elliptic and quarter-elliptic configuration, and probably approximately the required stiffness, https://cyclekartworkshop.co.uk/products/
 
 Lights:
 
@@ -23,7 +27,7 @@ Lights:
 
 Brakes:
 
- * ???
+ * ??? Probably motocross brakes to suit discs mounted on the wheels
 
 Reversing:
 
