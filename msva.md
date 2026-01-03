@@ -50,3 +50,5 @@ This is the "L5e" class.
 If you make it a three-wheeler then you lose the 15 kW power limit, and you can weigh up to 1000kg.
 
 Main beam optional, hazards optional.
+
+Seatbelts required regardless of weight.
