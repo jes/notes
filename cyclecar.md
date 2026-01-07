@@ -46,7 +46,7 @@ And a teardown in https://www.youtube.com/watch?v=K0RRHEuYprw in which nothing a
 
 Note the GY6 reversing gearbox has a reduced ratio in reverse, so it matters which way you drive it!
 
-The GY6 gearbox looks to be able to handle more power. One guy was having the "universal go-kart" one keep skipping teeth, although I don't quite understand why.
+The GY6 gearbox may be able to handle more power. One guy was having the "universal go-kart" one keep skipping teeth, although I don't quite understand why, it's possible his issue was with some other part of his drivetrain.
 
 Chassis:
 
