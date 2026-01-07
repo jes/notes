@@ -12,6 +12,7 @@ Wheels:
 
  * Royal Enfield Classic 350 front wheel is 19", spoked, and about £100 each
  * 21" motocross front wheels are probably a better choice, e.g. KX125, but then you have to find tyres
+ * Pembleton Brooklands self-builds generally use 19" wheels
 
 Fuel tank:
 
