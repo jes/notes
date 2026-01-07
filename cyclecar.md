@@ -41,6 +41,7 @@ Reversing:
 GY6 reversing mechanism disassembly is here: https://www.youtube.com/watch?v=ALu3WWRsG18 - happily, nothing inside is spinning while it's in forwards gear, I think this will be adequate provided it can be mated to either the ZS190 gearbox output or the axle.
 
 This guy puts it on a 50hp engine: https://www.youtube.com/watch?v=o4c4AuKVVJw - he has a follow-up https://www.youtube.com/watch?v=pJmb9dp08mQ where something did fail, but it was nothing to do with the reversing gearbox, that's encouraging.
+And a teardown in https://www.youtube.com/watch?v=K0RRHEuYprw in which nothing appears damaged. I think I should use this.
 
 Note the GY6 reversing gearbox has a reduced ratio in reverse, so it matters which way you drive it!
 
