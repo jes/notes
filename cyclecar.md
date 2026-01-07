@@ -46,7 +46,7 @@ And a teardown in https://www.youtube.com/watch?v=K0RRHEuYprw in which nothing a
 
 Note the GY6 reversing gearbox has a reduced ratio in reverse, so it matters which way you drive it!
 
-To be honest I think either the GY6 style or the "universal go-kart" style would be fine, both look perfectly substantial from what I can see in the disassembly videos.
+The GY6 gearbox looks to be able to handle more power. One guy was having the "universal go-kart" one keep skipping teeth, although I don't quite understand why.
 
 Chassis:
 
