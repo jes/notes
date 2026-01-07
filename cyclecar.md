@@ -3,8 +3,9 @@
 Engine:
 
  * ZS190 is about £900 and 20hp
+ * https://www.ebay.co.uk/itm/365949490285 "GY6 200cc with Reverse Gear", £500, but supposedly only 9.1hp
 
-Exhaust:
+Exhaust: 
 
  * ??? probably have to make your own
 
@@ -34,6 +35,14 @@ Reversing:
 
  * ??? Options are skip it, add a reversing gearbox, or use electric motor
  * See https://www.youtube.com/watch?v=__HUgo_tAzc
+ * there is a "universal reversing gearbox" for go-karts, but specifies it's good for up to 13hp
+ * also possible to buy a "GY6" reversing gearbox independently of the engine, unclear how much power it is good for, however looks to be possible to do a straight swap for a plain sprocket in the event that the gearbox fails, so could be a good choice - other than that the spline does not match a ZS190
+
+GY6 reversing mechanism disassembly is here: https://www.youtube.com/watch?v=ALu3WWRsG18 - happily, nothing inside is spinning while it's in forwards gear, I think this will be adequate provided it can be mated to either the ZS190 gearbox output or the axle.
+
+This guy puts it on a 50hp engine: https://www.youtube.com/watch?v=o4c4AuKVVJw - he has a follow-up https://www.youtube.com/watch?v=pJmb9dp08mQ where something did fail, but it was nothing to do with the reversing gearbox, that's encouraging.
+
+Note the GY6 reversing gearbox has a reduced ratio in reverse, so it matters which way you drive it!
 
 Chassis:
 
