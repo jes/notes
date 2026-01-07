@@ -34,3 +34,7 @@ Reversing:
 
  * ??? Options are skip it, add a reversing gearbox, or use electric motor
  * See https://www.youtube.com/watch?v=__HUgo_tAzc
+
+Chassis:
+
+ * good Austin 7 chassis info in this vid https://www.youtube.com/watch?v=ZTUkgRdteA4 - in particular the layout of brakes, steering, and suspension
