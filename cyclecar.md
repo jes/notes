@@ -36,7 +36,7 @@ Reversing:
 
  * ??? Options are skip it, add a reversing gearbox, or use electric motor
  * See https://www.youtube.com/watch?v=__HUgo_tAzc
- * there is a "universal reversing gearbox" for go-karts, but specifies it's good for up to 13hp - teardown begins at 10:30 in https://www.youtube.com/watch?v=Sr9sfgW3vsg
+ * there is a "universal reversing gearbox" for go-karts, but specifies it's good for up to 13hp - teardown begins at 10:30 in https://www.youtube.com/watch?v=Sr9sfgW3vsg - look to be approx. 3:1 reduction in reverse and maybe 1.5:1 or 2:1 in forwards?
  * also possible to buy a "GY6" reversing gearbox independently of the engine, unclear how much power it is good for, however looks to be possible to do a straight swap for a plain sprocket in the event that the gearbox fails, so could be a good choice - other than that the spline does not match a ZS190
 
 GY6 reversing mechanism disassembly is here: https://www.youtube.com/watch?v=ALu3WWRsG18 - happily, nothing inside is spinning while it's in forwards gear, I think this will be adequate provided it can be mated to either the ZS190 gearbox output or the axle.
@@ -47,6 +47,9 @@ And a teardown in https://www.youtube.com/watch?v=K0RRHEuYprw in which nothing a
 Note the GY6 reversing gearbox has a reduced ratio in reverse, so it matters which way you drive it!
 
 The GY6 gearbox may be able to handle more power. One guy was having the "universal go-kart" one keep skipping teeth, although I don't quite understand why, it's possible his issue was with some other part of his drivetrain.
+
+The universal go kart reversing gearbox specs say that forward ratio is "1:1:3" and reverse is "1:2:6" - but what does this mean? It only has 2 shafts inside, should only have one ratio. This does mean that a straight bypass of the
+reversing gearbox would leave you over-geared by like a factor of 3.
 
 Chassis:
 
