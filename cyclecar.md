@@ -24,6 +24,26 @@
 
  * Cyclekart Workshop has leaf springs available for both half-elliptic and quarter-elliptic configuration, and probably approximately the required stiffness, https://cyclekartworkshop.co.uk/products/
 
+Or this on eBay: https://www.ebay.co.uk/itm/145660919625
+
+https://img.incoherency.co.uk/6418
+
+It says "max 1600kg" which is obviously way too much, so I would be removing all but 1 leaf. Compared to the Cyclekart Workshop ones these are half the price, 8% longer, 18% wider, 68% thicker.
+
+Being 8% longer probably makes it slightly softer but not a lot so ignore that. Stiffness is proportional to `b * h^3` so 1 leaf of this is `1.18 * 1.68^3 = ~5.6` times stiffer. I think that's not
+going to work.
+
+Bot suggests trying golf buggy leaf springs! Who knew golf buggies had leaf springs? Something like "Genuine Club Car Front Spring Assembly 103628701 Golf Buggy Cart" - the best price I've found is
+£85 each and I still don't know if they are actually a suitable stiffness.
+
+## Front hubs
+
+ * ???
+
+## Rear hubs
+
+ * I'm thinking taper-lock fittings.
+
 ## Lights
 
  * ??? Presumed readily available
