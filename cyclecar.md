@@ -1,38 +1,48 @@
 # Cyclecar
 
-Engine:
+## Engine
 
  * ZS190 is about £900 and 20hp
  * https://www.ebay.co.uk/itm/365949490285 "GY6 200cc with Reverse Gear", £500, but supposedly only 9.1hp
 
-Exhaust:
+## Exhaust
 
  * ??? probably have to make your own
 
-Wheels:
+## Wheels
 
  * Royal Enfield Classic 350 front wheel is 19", spoked, and about £100 each
  * 21" motocross front wheels are probably a better choice, e.g. KX125, but then you have to find tyres
  * Pembleton Brooklands self-builds generally use 19" wheels
  * The John Haynes Austin 7 Special uses 17" wheels with 3.5" tyre width, so approx. 24" total diameter
 
-Fuel tank:
+## Fuel tank
 
  * You can get these plastic fuel oil tanks on eBay that you drill for your own tap
 
-Leaf springs:
+## Leaf springs
 
  * Cyclekart Workshop has leaf springs available for both half-elliptic and quarter-elliptic configuration, and probably approximately the required stiffness, https://cyclekartworkshop.co.uk/products/
 
-Lights:
+## Lights
 
  * ??? Presumed readily available
 
-Brakes:
+## Brakes
 
- * ??? Probably motocross brakes to suit discs mounted on the wheels
+Check this out: https://www.ebay.co.uk/itm/204669651717
 
-Reversing:
+https://img.incoherency.co.uk/6412
+
+Looks to have:
+
+ * discs, pads, calipers, master cylinder
+ * carriers for floating calipers
+ * master cylinder drives 2 independent circuits (front and rear)
+ * provision for cable-operated handbrake on rear caliper
+ * pressure-activated brake light switch
+
+## Reversing
 
  * ??? Options are skip it, add a reversing gearbox, or use electric motor
  * See https://www.youtube.com/watch?v=__HUgo_tAzc
@@ -51,6 +61,6 @@ The GY6 gearbox may be able to handle more power. One guy was having the "univer
 The universal go kart reversing gearbox specs say that forward ratio is "1:1:3" and reverse is "1:2:6" - but what does this mean? It only has 2 shafts inside, should only have one ratio. This does mean that a straight bypass of the
 reversing gearbox would leave you over-geared by like a factor of 3.
 
-Chassis:
+## Chassis
 
  * good Austin 7 chassis info in this vid https://www.youtube.com/watch?v=ZTUkgRdteA4 - in particular the layout of brakes, steering, and suspension
