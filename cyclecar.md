@@ -12,6 +12,10 @@ ZS190, supposedly 16hp.
 
 I have some 17x1.6" wheels that look to be front wheels from a motorbike, they have one side open where a drum brake assembly could fit and the other side blank.
 
+## Tyres
+
+Bot says the biggest tyre you can put on a 17x1.6" wheel is 3.00-17, and for example a Kenda K272 looks good and is about £45 per tyre.
+
 ## Fuel tank
 
  * You can get these plastic fuel oil tanks on eBay that you drill for your own tap
