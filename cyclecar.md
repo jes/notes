@@ -46,6 +46,8 @@ Looks to have:
  * provision for cable-operated handbrake on rear caliper
  * pressure-activated brake light switch
 
+I've ordered one.
+
 ## Reversing
 
 I've ordered a "universal go-kart reversing gearbox". It is sold as being suitable for up to 13hp, but a unit that looks equivalent is sold elsewhere for up to only 7hp, so unclear how well this will hold up. I
