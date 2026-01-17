@@ -52,6 +52,22 @@ Looks to have:
 
 I've ordered one.
 
+### Front discs
+
+ * Diameter: 126.5mm
+ * Thickness: 3.5mm
+ * Bore: 47mm
+ * Holes: 6x 6.5mm holes (to suit M6) on 58mm PCD
+
+And needs I think at least 25mm clerance from the inside edge of the disc to the nearest surface of the wheel, for caliper clearance.
+
+### Rear disc
+
+ * Diameter: 220mm
+ * Thickness: 3.5mm
+ * Bore: 58mm
+ * Holes: 4x 8.5mm holes (to suit M8) on 80mm PCD
+
 ## Reversing
 
 I've ordered a "universal go-kart reversing gearbox". It is sold as being suitable for up to 13hp, but a unit that looks equivalent is sold elsewhere for up to only 7hp, so unclear how well this will hold up. I
