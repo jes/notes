@@ -26,17 +26,13 @@ I've ordered front leaf springs for a "Club Car" golf cart. They have 2 leaves b
 
 ## Rear hubs
 
-Remove the bearings, and light press-fit a spigot inside the bore of the wheel, which has a flange
-on the back, with 6x M8 bolts that go through the wheel. On the outer face of the wheel, spot-face the holes with a counterbore
-so that the bolt heads sit flat.
-
-And the spigot wants to be at least keyed to the shaft and ideally somehow taper-locked or split-clamped to the shaft.
+Light press-fit some bushes inside the bearing spaces in the wheel, with a close fit over the axle, so that
+the wheel is accurately located. Drill through the wheel, spot-face with a counterbore tool, bolt to a flange
+at the back.
 
 Bolt-on taper-lock hubs are available: https://img.incoherency.co.uk/6424
 
-Which is basically what I want except it doesn't have a spigot to nicely locate it in the wheel. Maybe we could simply sleeve
-the wheel hub with something that is a close fit on the axle and that is good enough? It won't spin on the axle at all, just needs
-to locate the wheel concentric with the axle, and then we bolt it to the bolt-on taper-lock hub.
+Alternatively weld-ton taper-lock hubs are also available.
 
 ## Front hubs
 
@@ -87,6 +83,12 @@ And needs I think at least 25mm clerance from the inside edge of the disc to the
  * Thickness: 3.5mm
  * Bore: 58mm
  * Holes: 4x 8.5mm holes (to suit M8) on 80mm PCD
+
+To mount the rear disc I will want an adapter for a taper-lock hub. Either weld-on or bolt-on, with an appropriate adapter plate in either case.
+Or perhaps get a bolt-on one but machine it so that the disc can mount directly to it?
+
+A BF12 taper lock hub has 6 holes on a 100mm PCD and has registers at 74mm and 80mm diameter. And the 1210 bush has max. diameter of 47.55mm. So probably
+it is possible to machine this to take the disc directly.
 
 ## Reversing
 
