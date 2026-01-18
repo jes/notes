@@ -24,13 +24,31 @@ Bot says the biggest tyre you can put on a 17x1.6" wheel is 3.00-17, and for exa
 
 I've ordered front leaf springs for a "Club Car" golf cart. They have 2 leaves but I will remove one.
 
-## Front hubs
-
- * ???
-
 ## Rear hubs
 
- * I'm thinking taper-lock fittings.
+Remove the bearings, and light press-fit a spigot inside the bore of the wheel, which has a flange
+on the back, with 6x M8 bolts that go through the wheel. On the outer face of the wheel, spot-face the holes with a counterbore
+so that the bolt heads sit flat.
+
+And the spigot wants to be at least keyed to the shaft and ideally somehow taper-locked or split-clamped to the shaft.
+
+Bolt-on taper-lock hubs are available: https://img.incoherency.co.uk/6424
+
+Which is basically what I want except it doesn't have a spigot to nicely locate it in the wheel. Maybe we could simply sleeve
+the wheel hub with something that is a close fit on the axle and that is good enough? It won't spin on the axle at all, just needs
+to locate the wheel concentric with the axle, and then we bolt it to the bolt-on taper-lock hub.
+
+## Front hubs
+
+We can use bearings inside the wheel - but probably want to increase the spindle diameter from existing 15mm. Bot suggests
+you really want like 25mm. It's possible that I could make a separate "spigot half" for the inner and outer bearing, and
+have bearings larger than 42mm outer diameter but they sit outside the wheel hub, but I think not necessary.
+
+But a "6905" deep-groove ball bearing is 42mm outer diameter, 25mm inner diameter, 9mm thickness, cheap and
+readily available. Alternatively
+a "71905" angular contact bearing fits in the same dimensions (also 9mm thick) and takes higher load, but costs over £100 each.
+
+And then we need something, probably bolted through the wheel, to carry the brake disc, with clearance for the caliper.
 
 ## Lights
 
@@ -41,6 +59,8 @@ I've ordered front leaf springs for a "Club Car" golf cart. They have 2 leaves b
 Check this out: https://www.ebay.co.uk/itm/204669651717
 
 https://img.incoherency.co.uk/6412
+
+https://img.incoherency.co.uk/6423
 
 Looks to have:
 
