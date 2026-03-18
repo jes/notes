@@ -1,6 +1,6 @@
 # Philosophy
 
-Feedback from Feroz: "have you been reading much philosophy to frame your thoughts?").
+(Feedback from Feroz: "have you been reading much philosophy to frame your thoughts?").
 
 ## Reality
 
@@ -32,6 +32,8 @@ came from *all* of its possible histories, not just one. (Modulo the threefold r
 For example we may live in a world in which a person was murdered by 2 different people in 2 different histories. For reality
 to truly converge into a single present, you'd need something like both of the murderers die or otherwise forget that they did it and otherwise
 live their life identically, but that's not impossible.
+
+(Feedback from mdg: apparently this is a Feynman idea!)
 
 ### Universe made of mathematics
 
@@ -72,6 +74,9 @@ Is the body enclosed by the external world or is the world enclosed by the body?
 Is the self enclosed by the other or is the other enclosed by the self?
 
 Etc.
+
+(Feedback from jrn: the earth is 3-dimensional though, and obviously the seas sit on top of land that is underwater; so the sea is bounded below by
+the land; what would be the body/world or self/other version of an extra dimension?)
 
 ## Experience
 
