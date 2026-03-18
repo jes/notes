@@ -165,3 +165,7 @@ exist.
 
 Symmetrically, all of your descendants will owe their entire existence to you. If you value human life, then you can produce the most value
 for the most human life by having as many children as you can and encouraging them to do the same.
+
+On the other hand: if we subscribe to the "Symmetry" stuff and we think that having an overall bad life is of overall negative utility (big if)
+then is it actually a bad thing to create more humans if you anticipate that they will have overall a bad life? Or is the mere opportunity
+of getting to experience anything at all such an unbelievably high positive utility that no amount of suffering can outweigh it?
