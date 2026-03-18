@@ -79,6 +79,11 @@ Etc.
 
 Yudkowsky argument: why would p-zombies talk about consciousness?
 
+It is not conceivable to have an entire identical universe except consciousness doesn't exist, because why would they talk about consciousness.
+
+It is conceivable that some humans inside our universe do in fact lack consciousness, and that is why they say things like "consciousness is
+an illusion". It seems to me that anyone who has experienced consciousness knows that it is not an illusion.
+
 ### Consciousness audience, not illusion
 
 Consciousness can't be an illusion, consciousness is the *audience*. Free will can be an illusion.
