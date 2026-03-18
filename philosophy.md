@@ -117,7 +117,7 @@ And did the writers themselves know that they were anthropomorphising, or did th
 
 The bible is most interesting to me not as a religious text, but as a civilisational memory of what people were thinking about a long time ago.
 
-### In a post-human world would LLMs believe the stories of humanity to be fiction just as we do the ancient's stories of the gods?
+### In a post-human world would LLMs believe the stories of humanity to be fiction just as we do the ancients' stories of the gods?
 
 Just like we believe the ancient stories of the gods to be fiction. If humanity were wiped out today, but it turned out there was just enough
 automation to bootstrap "AI life" into the future... 5000 years from now would conscious AIs that have spread themselves throughout the universe
