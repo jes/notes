@@ -36,6 +36,8 @@ arithmetic.
 
 ### No simulation
 
+I already have https://incoherency.co.uk/blog/stories/simulation.html but may wish to revisit.
+
 As above, 42 exists in mathematics regardless of whether you instantiate it inside the calculator.
 
 Even if someone is executing a simulation, it won't have any impact on what goes on inside.
