@@ -27,6 +27,10 @@ Imagine the present is a chess position. All legal moves give a different possib
 are different possible pasts. And if we are in the chess-multiverse where all possible games of chess are played out, then this position in fact
 came from *all* of its possible histories, not just one. (Modulo the threefold repetition stuff etc.)
 
+Interesting consequences are that we may live in a world in which a person was murdered by 2 different people in 2 different histories. For reality
+to truly converge into a single present, you'd need something like both of the murderers die or otherwise forget that they did it and otherwise
+live their life identically, but that's not impossible.
+
 ### Universe made of mathematics
 
 The universe can easily be made out of nothing at all. Imagine that we live inside "the abstract structure of all of mathematics". Our experiences
