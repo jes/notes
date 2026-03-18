@@ -158,6 +158,11 @@ Engage in positive-sum trade even when you thereby lose (lend a stranger a tow r
 
 Do not engage in negative-sum trade even when you thereby gain (do not steal lead flashing).
 
+### All is one
+
+We are not really separate people so much as we are all parts of the one universe that is experiencing itself.
+In that sense the Self and the Other are not really separate at all, they're just separate viewpoints of the same whole.
+
 ### Do the most good by having lots of children and encouraging them to do the same
 
 You owe your entire existence to every one of your ancestors. If they didn't exist, or didn't have the kids they had, then you wouldn't
