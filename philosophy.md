@@ -1,10 +1,12 @@
 # Philosophy
 
+Feedback from Feroz: "have you been reading much philosophy to frame your thoughts?").
+
 ## Reality
 
 ### Many worlds
 
-Obviously the many worlds interpretation is the correct interpretation of quantum mechanics.
+Obviously the many worlds interpretation is the correct interpretation of quantum mechanics. (Feedback from Ruari: big claim, needs substantiating or dropping).
 
 But I don't even care about quantum mechanics, I'm more into a metaphysical version of many worlds.
 
