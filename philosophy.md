@@ -152,6 +152,8 @@ But if you decide to be happy about the good without being sad about the bad you
 Or at least you will at first, until you realise you can take negative-sum bets, and ignore the bad outcomes
 and be happy about the good outcomes, and slowly bankrupt yourself while getting more and more units of joy.
 
+### Where does talking one's book end and putting one's money where one's mouth is begin?
+
 ### Negative-sum and positive-sum trade
 
 Engage in positive-sum trade even when you thereby lose (lend a stranger a tow rope).
@@ -174,3 +176,11 @@ for the most human life by having as many children as you can and encouraging th
 On the other hand: if we subscribe to the "Symmetry" stuff and we think that having an overall bad life is of overall negative utility (big if)
 then is it actually a bad thing to create more humans if you anticipate that they will have overall a bad life? Or is the mere opportunity
 of getting to experience anything at all such an unbelievably high positive utility that no amount of suffering can outweigh it?
+
+### Masks
+
+We are what we pretend to be.
+
+A person born into a vacuum with no experiences would not have any kind of personality. We only develop a personality as children in reaction
+to our experiences, by putting on "masks" that produce favourable outcomes, and eventually we forget that it was ever a mask and become unable
+to take it off.
