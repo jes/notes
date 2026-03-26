@@ -15,6 +15,17 @@ you may have a memory of the previous positions that led up to the present, but 
 positions *every* move was taken. You don't have any memory or awareness of any of the other branches. You only have a (very limited) memory of 
 the recent past.
 
+You can imagine that different possible rollouts of the universe could be "parallel universes" in which each rollout only picks one choice at
+each step, or it could be "branching" in which there is only really one rollout but it forks at each step, or it could be only a single rollout
+and the choice is chosen at random at each step. I contend that, from the inside,
+you can't tell which it is. And, further, that *there is no difference*. There's no fact of reality that decides whether you have parallel universes
+or branching universes, it's all just how we decide to look at it.
+
+You might argue that you could work out whether you're in branching universes by flipping a coin 10 times in a row. There is a 1/1024 (factcheck this)
+chance of getting 10 heads in a row. In branching reality you are guaranteed to get 10 heads in a row in 1 of the branches, so you might argue that in that branch you
+"know" you are in branching reality. But in parallel reality you'd also get 10 heads 1/1024 times, and in single reality you'd have a 1/1024 chance. These
+are all the same thing, so the experiment doesn't distinguish, and (I posit) *no* experiment can distinguish, because there is no difference.
+
 ### Many histories
 
 Once all the information about historical events is lost (and it must be, because a universe whose state holds N bits of information can not encode
