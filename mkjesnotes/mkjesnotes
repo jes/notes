@@ -30,11 +30,12 @@ my $NAVHTMLEND = '';
 
 my @stories;
 my %title_map;
+my %git_meta = load_git_metadata($indir, "$indir/*.md");
 for my $file (sort glob("$indir/*.md")) {
     (my $name = $file) =~ s/^\Q$indir\E\///;
     $name =~ s/\.md$//;
 
-    my ($modified, $commit) = split / /, `git log -1 --pretty="format:%ct %H" \Q$file\E`;
+    my ($modified, $commit) = @{ $git_meta{$file} // [] };
     $modified //= 'never';
     $commit //= '';
 
@@ -269,4 +270,35 @@ sub parse_navspec {
     close $fh;
     
     return (\%nav, \%included);
+}
+
+sub load_git_metadata {
+    my ($base_dir, $glob_pattern) = @_;
+    my @files = sort glob($glob_pattern);
+    return () if !@files;
+
+    # Get all commits touching markdown files once, newest first.
+    my $cmd = 'git log --pretty=format:%ct\ %H --name-only -- ' .
+              join(' ', map { "'$_'" } @files);
+    my $out = `$cmd`;
+
+    my %meta;
+    my ($ct, $hash) = ('', '');
+    for my $line (split /\n/, $out) {
+        if ($line =~ /^(\d+)\s+([0-9a-f]+)$/) {
+            ($ct, $hash) = ($1, $2);
+            next;
+        }
+        next if $line !~ /\S/;
+
+        # First time we see a file is its latest touching commit.
+        if (!$meta{$line}) {
+            $meta{$line} = [$ct, $hash];
+            if ($line !~ /^\Q$base_dir\E\//) {
+                $meta{"$base_dir/$line"} = [$ct, $hash];
+            }
+        }
+    }
+
+    return %meta;
 }
