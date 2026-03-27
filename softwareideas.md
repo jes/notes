@@ -19,7 +19,9 @@ ticking at, and maybe a way to plot some visualisation of the beat/regularity.
 the videos out of the YouTube silo, and gives me convenient tools for counting frames etc. and
 embedding in the notes system.
 
-## Image measurer
+## Image measurer [done]
+
+Done [2026-03-26](20260326.md) - https://incoherency.co.uk/image-measurer/
 
 I do a lot of image measuring, where I load up one or two images in GIMP and measure distances and/or
 angles. Examples:
