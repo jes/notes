@@ -163,6 +163,12 @@ But if you decide to be happy about the good without being sad about the bad you
 Or at least you will at first, until you realise you can take negative-sum bets, and ignore the bad outcomes
 and be happy about the good outcomes, and slowly bankrupt yourself while getting more and more units of joy.
 
+But also, something like "conservation of expected joy". If an event has two possible outcomes with 50:50 probability,
+and you'll be
+10 units happy with one and 20 units happy with the other, then really you are 15 units happy right now,
+and you get a +5 or -5 adjustment afterwards. You don't get to think you are +10 happy after you get the
+bad outcome, you should have already counted that as soon as you knew the event was going to happen.
+
 ### Where does talking one's book end and putting one's money where one's mouth is begin?
 
 ### Negative-sum and positive-sum trade
