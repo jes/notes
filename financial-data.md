@@ -10,4 +10,4 @@ Free sources of historical financial data:
  * [fja05680 S&P500 point-in-time dataset](https://github.com/fja05680/sp500) - goes back to 1996
  * [Multpl](https://www.multpl.com/) - switch to Table view and scrape HTML
  * [Macrohistory Database](https://www.macrohistory.net/database/)
- * [Github Datasets](https://github.com/datasets)
+ * [Github Datasets](https://github.com/datasets) or equivalently [DataHub](https://datahub.io/core)
