@@ -37,5 +37,5 @@ https://www.digikey.co.uk/en/products/detail/tdk-corporation/FK20X5R0J476MN000/2
 The transformer gives 6.3v AC output from 230v AC input. https://www.digikey.co.uk/en/products/detail/triad-magnetics/F-313X/5032119
 
 The motor is a "28BYJ-48" stepper motor, but there are lots of different specifications. You want it to take 12v input
-and have a 16:1 nominal gear reduction. Past that, you may have to experiment to find out that is close enough to 16.03231:1
+and have a 16:1 nominal gear reduction. Past that, you may have to experiment to find one that is close enough to 16.03231:1
 that it will work, or change some of the gears to compensate. https://www.digikey.co.uk/en/products/detail/adafruit-industries-llc/918/5629415
