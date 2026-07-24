@@ -40,7 +40,7 @@ Rules for the "L7e" class MSVA test:
  * seatbelt only required if it has unladen weight over 250kg
  * no roll-over protection required
  * 2 seats is allowed
- * need a mechanical device to positively lock the steering or transmission, or an electronic immobiliser
+ * need a mechanical device to positively lock the steering or transmission, or electrical immobiliser, unclear if a key on the ignition switch is sufficient
  * no requirement for mudguards on unbodied vehicles
 
 ## Tricycle
