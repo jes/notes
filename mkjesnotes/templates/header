@@ -13,6 +13,13 @@ html, body {
 code {
     background: #eee;
 }
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: solid 1px #888;
+    padding: 2px 5px;
+}
 blockquote {
     border-left: solid 3px #888;
     margin-left: 0px;

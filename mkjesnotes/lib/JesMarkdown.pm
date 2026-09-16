@@ -530,6 +530,8 @@ sub _RunBlockGamut {
     $text =~ s{^[ ]{0,$less_than_tab}(-[ ]?){3,}[ \t]*$}{\n<hr$self->{empty_element_suffix}\n}gmx;
     $text =~ s{^[ ]{0,$less_than_tab}(_[ ]?){3,}[ \t]*$}{\n<hr$self->{empty_element_suffix}\n}gmx;
 
+    $text = $self->_DoTables($text);
+
     $text = $self->_DoLists($text);
 
     $text = $self->_DoCodeBlocks($text);
@@ -553,6 +555,93 @@ sub _RunBlockGamut {
     $text = $self->_FormParagraphs($text, {wrap_in_p_tags => $options->{wrap_in_p_tags}});
 
     return $text;
+}
+
+sub _DoTables {
+#
+# Convert GitHub-style pipe tables into HTML tables.  This is deliberately
+# small: a header row, a separator row, and zero or more body rows.  Tables
+# are handled before paragraph formation so the generated markup is protected
+# by _HashHTMLBlocks() below.
+#
+    my ($self, $text) = @_;
+    my $less_than_tab = $self->{tab_width} - 1;
+
+    my @lines = split /(?<=\n)/, $text;
+    my @output;
+
+    for (my $i = 0; $i <= $#lines; ) {
+        my $header = $lines[$i];
+        my $separator = $lines[$i + 1];
+
+        if (defined $separator
+            && $header =~ /^[ ]{0,$less_than_tab}\|.*\|[ \t]*\n?$/
+            && $separator =~ /^[ ]{0,$less_than_tab}\|?[ \t]*:?-{3,}:?[ \t]*(?:\|[ \t]*:?-{3,}:?[ \t]*)+\|?[ \t]*\n?$/) {
+            my @headings = _TableCells($header);
+            my @alignments = _TableAlignments($separator);
+
+            if (@headings == @alignments) {
+                my @rows;
+                my $next = $i + 2;
+                while ($next <= $#lines && $lines[$next] =~ /^[ ]{0,$less_than_tab}\|.*\|[ \t]*\n?$/) {
+                    my @cells = _TableCells($lines[$next]);
+                    last if @cells != @headings;
+                    push @rows, \@cells;
+                    $next++;
+                }
+
+                my $html = "<table>\n<thead>\n<tr>";
+                for my $column (0 .. $#headings) {
+                    my $align = $alignments[$column] ? qq{ align="$alignments[$column]"} : '';
+                    $html .= '<th' . $align . '>' . $self->_RunSpanGamut($headings[$column]) . '</th>';
+                }
+                $html .= "</tr>\n</thead>\n<tbody>\n";
+                for my $row (@rows) {
+                    $html .= '<tr>';
+                    for my $column (0 .. $#$row) {
+                        my $align = $alignments[$column] ? qq{ align="$alignments[$column]"} : '';
+                        $html .= '<td' . $align . '>' . $self->_RunSpanGamut($row->[$column]) . '</td>';
+                    }
+                    $html .= "</tr>\n";
+                }
+                $html .= "</tbody>\n</table>\n";
+                push @output, $html;
+                $i = $next;
+                next;
+            }
+        }
+
+        push @output, $header;
+        $i++;
+    }
+
+    return join '', @output;
+}
+
+sub _TableCells {
+    my ($line) = @_;
+    $line =~ s/\r?\n\z//;
+    $line =~ s/^[ ]*\|//;
+    $line =~ s/\|[ \t]*\z//;
+    my @cells = split /(?<!\\)\|/, $line, -1;
+    for (@cells) {
+        s/^[ \t]+//;
+        s/[ \t]+\z//;
+    }
+    return @cells;
+}
+
+sub _TableAlignments {
+    my ($line) = @_;
+    my @alignments;
+    for my $cell (_TableCells($line)) {
+        push @alignments,
+            $cell =~ /^:(?:-+):$/ ? 'center'
+            : $cell =~ /^:(?:-+)$/ ? 'left'
+            : $cell =~ /^(?:-+):$/ ? 'right'
+            : '';
+    }
+    return @alignments;
 }
 
 sub _RunSpanGamut {
@@ -1745,4 +1834,3 @@ negligence or otherwise) arising in any way out of the use of this
 software, even if advised of the possibility of such damage.
 
 =cut
-
