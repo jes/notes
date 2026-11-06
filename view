@@ -2,4 +2,4 @@
 
 cd mkjesnotes
 ./mkjesnotes
-xdg-open html/index.html
+firefox html/index.html
